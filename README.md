@@ -2,7 +2,7 @@ European Migrant Crisis
 
 Week 1
 
-Before starting on the content, I spent time deciding the best way to lay out the app. I used computer paper to storyboard the slides. This helped significantly when I was marking up the HTML. My sections and articles are strategically labeled and ordered to accommodate the web design. I also conducted extensive research on the topic and wrote the content that will be featured on the app. It was difficult to condense all the information I learned.
+Before starting on the content, I spent time deciding the best way to lay out the app. I used computer paper to storyboard the slides. This helped significantly when I was marking up the HTML. My sections and articles are strategically labeled and ordered to accommodate the web design. I also conducted extensive research on the topic and wrote the content that will be featured on the app. It was difficult to condense all the information. I decided to deviate from the original plan and only focus on France and Germany. Otherwise it would be way too much information. 
 
 I also researched how to make the page work like slides.
 
