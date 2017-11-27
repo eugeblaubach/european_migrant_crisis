@@ -1,0 +1,26 @@
+#intro {
+     background-image: url('../images/intro2.jpg');
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+     height: 100vh;
+     z-index: -10;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text-center {
+  background-color: #;
+  color: #fff;
+  margin-top: 20%;
+}
+
+h1 {
+  font-size: 400%
+}
