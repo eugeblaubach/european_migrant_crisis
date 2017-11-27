@@ -1,6 +1,6 @@
-<h1>European Migrant Crisis</h1>
+European Migrant Crisis
 
-<h2>Week 1</h2>
+Week 1
 
 Before starting on the content, I spent time deciding the best way to lay out the app. I used computer paper to storyboard the slides. This helped significantly when I was marking up the HTML. My sections and articles are strategically labeled and ordered to accommodate the web design. I also conducted extensive research on the topic and wrote the content that will be featured on the app. It was difficult to condense all the information I learned.
 
@@ -18,4 +18,4 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 Overlay effect
 https://www.w3schools.com/howto/howto_css_overlay.asp   
 
-I'm pleased with the work I've done so far, especially how i've been able to use website design to enhance my argument and make it easier to digest. I have a much clearer vision of what I want to do, but naturally I have more questions now than before I started. After speaking with you on Tuesday, I expect to have a clear strategy for tackling the script. 
+I'm pleased with the work I've done so far, especially how i've been able to use website design to enhance my argument and make it easier to digest. I have a much clearer vision of what I want to do, but naturally I have more questions now than before I started. After speaking with you on Tuesday, I expect to have a clear strategy for tackling the script.
