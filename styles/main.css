@@ -4,14 +4,31 @@
      background-position: center center;
      position: relative;
      height: 100vh;
-     z-index: -10;
+     z-index: 1;
 }
+#explanation1 {
+  background-image: url('../images/boat.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+#text-explanation1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  margin-top: 20%;
+
+}
+
 
 .overlay {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: -5;
+  z-index: 2;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -19,6 +36,7 @@
   background-color: #;
   color: #fff;
   margin-top: 20%;
+  z-index: 3;
 }
 
 h1 {
