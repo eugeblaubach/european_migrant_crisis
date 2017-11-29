@@ -30,6 +30,11 @@ html{
   z-index: 3;
 }
 
+img {
+  position: absolute;
+  margin: 20px;
+}
+
 #intro {
      background-image: url('../images/intro.jpg');
 }
@@ -40,13 +45,20 @@ h1 {
 
 #explanation1 {
   background-image: url('../images/boat.jpg');
-
 }
 
-#text-explanation1 {
+.textbox {
   padding: 20px;
   margin-top: 20%;
+  font-size: 2.1vh;
+}
 
+#explanation2 {
+  background-image: url('../images/line.jpg');
+}
+
+#explanation3 {
+  background-image: url('../images/line.jpg');
 }
 
 .btn_round_outline {
