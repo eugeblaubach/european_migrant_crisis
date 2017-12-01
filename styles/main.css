@@ -1,6 +1,6 @@
 body,
 html{
-    overflow: hidden;
+    
     margin: 0;
   }
 
@@ -48,7 +48,7 @@ h1 {
 }
 
 .textbox {
-  padding: 20px;
+  padding: 15px;
   margin-top: 20%;
   font-size: 2.1vh;
 }
