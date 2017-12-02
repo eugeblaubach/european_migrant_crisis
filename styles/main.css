@@ -1,8 +1,10 @@
 body,
 html{
-
+  overflow: hidden;
     margin: 0;
   }
+
+
 
 .image {
   background-size: cover;
