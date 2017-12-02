@@ -6,6 +6,8 @@
   <title>European Migrant Crisis</title>
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="styles/main.css">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/themes/avocado.js"></script>
 </head>
 
 <body>
@@ -122,11 +124,14 @@
       <a href="#fr_migration_waves" class="btn btn_round_outline float-right next">></a>
       <div class="container">
         <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
+           <div class="col-6">
              <div class="text textbox">
-               <p>France and Germany have the largest Muslim populations in Europe, but Syrian refugees only make up about one percent in each country.</p>
+               <p>France and Germany have the largest Muslim populations in Europe, but Syrian refugees only make up about one percent of the total population in each country.</p>
 
-               <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims already living in Europe. To understand the current crisis, it’s essential to look back at previous waves of migration to the region.</p>
+               <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims already living in Europe.
+               </p>
+
+               <p>To understand the current crisis, it’s essential to look back at previous waves of migration to the region.</p>
 
                <p>Let’s take a closer look at the influx and treatment of immigrants in France and Germany prior to the current crisis.</p>
 
@@ -135,6 +140,7 @@
 
              </div> <!-- close text  -->
            </div> <!-- close col  -->
+          <div class="col-6" id="container"></div>
          </div> <!-- close row  -->
        </div> <!-- close container  -->
      </div> <!-- close overlay  -->
@@ -146,7 +152,7 @@
       <div class="overlay">
         <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
         <a href="#explanation4" class="btn btn_round_outline back float-left back"><</a>
-        <a href="#fr_algeria" class="btn btn_round_outline float-right next">></a>
+        <a href="#fr_economy" class="btn btn_round_outline float-right next">></a>
         <div class="container">
           <div class="row">
              <div class="col-sm-12 col-md-9 col-lg-5">
@@ -194,97 +200,216 @@
     </div> <!-- close fr_migration_waves article -->
 
 
-    <article id="fr_economy">
-      <p>France experienced a 30-year period of economic prosperity after World War II during which permanent migration to the country was encouraged.
-      </p>
+<div class="image" id="fr_economy">
+    <div class="overlay">
+      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+      <a href="#fr_migration_waves" class="btn btn_round_outline back float-left back"><</a>
+      <a href="#ger_migration_waves" class="btn btn_round_outline float-right next">></a>
+      <div class="container">
+        <div class="row">
+           <div class="col-sm-12 col-md-9 col-lg-5">
+             <div class="text textbox">
 
-      <p>
-      The 1973 oil crisis shook the world economy and put a halt on France’s economic prosperity. The country saw a quick and steady rise in unemployment and inflation. In July 1974, the French government ended the large-scale labor migration from North Africa.
-      </p>
+              <p>France experienced a 30-year period of economic prosperity after World War II during which permanent migration to the country was encouraged.
+              </p>
 
-      <p>
-      Around the same time, France saw the emergence of the National Front, a far-right nationalist political party. The party’s founder Jean Marie Le Pen capitalized on the nation’s growing discontent by drawing a line between rising unemployment and the immigrant population. The rise of anti-immigrant sentiments led to a rightward shift in immigration policy and evidently unfavorable conditions for immigrants.
-      </p>
+              <p>The 1973 oil crisis shook the world economy and put a halt on France’s economic prosperity. The country saw a quick and steady rise in unemployment and inflation. In July 1974, the French government ended the large-scale labor migration from North Africa.
+              </p>
 
-      <p><a href= "https://commons.wikimedia.org/wiki/File:GD-FR-Paris-Le_Louvre.jpg">See image</a>
-      </p>
+              <p>Around the same time, France saw the emergence of the National Front, a far-right nationalist political party. The party’s founder Jean Marie Le Pen capitalized on the nation’s growing discontent by drawing a line between rising unemployment and the immigrant population. The rise of anti-immigrant sentiments led to a rightward shift in immigration policy and evidently unfavorable conditions for immigrants.
+              </p>
 
-      <!-- insert button here -->
-    </article> <!-- close fr_economy article -->
+              <p><a href= "https://commons.wikimedia.org/wiki/File:GD-FR-Paris-Le_Louvre.jpg">See image</a>
+              </p>
 
-  </section>  <!-- close france section -->
+            </div> <!-- close text  -->
+          </div> <!-- close col  -->
+        </div> <!-- close row  -->
+      </div> <!-- close container  -->
+    </div> <!-- close overlay  -->
+</div>  <!-- close fr_economy  -->
 
 <!-- begin germany section -->
-  <section id="germany">
+<div class="image" id="ger_migration_waves">
+  <div class="overlay">
+    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+    <a href="#fr_economy" class="btn btn_round_outline back float-left back"><</a>
+    <a href="#ger_guest" class="btn btn_round_outline float-right next">></a>
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-9 col-lg-5">
+           <div class="text textbox">
+             <p>Germany and France have similar immigration history. During the first half of the 20th century, Germany received foreign workers from neighboring countries including Poland, Czechoslovakia and Hungary to fill the unskilled labor gaps in the mining and manufacturing sectors.
+             </p>
 
-    <article id="ger_migration_waves">
-      <p>Germany and France have similar immigration history. During the first half of the 20th century, Germany received foreign workers from neighboring countries including Poland, Czechoslovakia and Hungary to fill the unskilled labor gaps in the mining and manufacturing sectors.
-      </p>
+             <p>In the late 1950s, post-war labor shortages prompted the country to sign bilateral recruitment agreements to import foreign labor from Italy, Spain and Greece as well as multiple Muslim nations including Turkey, Morocco and Tunisia.
+             </p>
 
-      <p>
-      In the late 1950s, post-war labor shortages prompted the country to sign bilateral recruitment agreements to import foreign labor from Italy, Spain and Greece as well as multiple Muslim nations including Turkey, Morocco and Tunisia.
-      </p>
+             <p><a href= "">See image</a>
+             </p>
 
-      <p><a href= "">See image</a>
-      </p>
+           </div> <!-- close text  -->
+         </div> <!-- close col  -->
+       </div> <!-- close row  -->
+     </div> <!-- close container  -->
+   </div> <!-- close overlay  -->
+</div> <!-- close ger_migration_waves article -->
 
-      <!-- insert button here -->
-    </article> <!-- close ger_migration_waves article -->
+<div class="image" id="ger_guest">
+  <div class="overlay">
+    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+    <a href="#ger_migration_waves" class="btn btn_round_outline back float-left back"><</a>
+    <a href="#unemployment" class="btn btn_round_outline float-right next">></a>
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-9 col-lg-5">
+           <div class="text textbox">
+             <p>Much like in France, recruitment of foreign guest workers continued until the 1973 oil crisis that plunged the country into a recession. By that time, Turkey had surpassed Italy as the most prominent source of immigration. According to the <a href= "https://www.migrationpolicy.org/article/germany-immigration-transition">Migration Policy Institute</a>, Turkish people accounted for 23 percent of foreigners in the country.</p>
 
-    <article id="ger_guest">
-      <p>Much like in France, recruitment of foreign guest workers continued until the 1973 oil crisis that plunged the country into a recession. By that time, Turkey had surpassed Italy as the most prominent source of immigration. According to the <a href= "https://www.migrationpolicy.org/article/germany-immigration-transition">Migration Policy Institute</a>, Turkish people accounted for 23 percent of foreigners in the country.</p>
+             <p>Guest workers were expected to enter Germany, work for a few years and then return to their former homes. However, economic and political unrest in Turkey prompted a large portion of them to settle in the Germany.
+             </p>
 
-      <p>Guest workers were expected to enter Germany, work for a few years and then return to their former homes. However, economic and political unrest in Turkey prompted a large portion of them to settle in the Germany.
-      </p>
+             <p>The unexpected settlement of Turkish immigrants and the period of family reunification that ensued shortly after gave way to xenophobic rhetoric and debates about the country's national identity.
+             </p>
 
-      <p>The unexpected settlement of Turkish immigrants and the period of family reunification that ensued shortly after gave way to xenophobic rhetoric and debates about the country's national identity.
-      </p>
-
-      <p><a href= "">See image</a>
-      </p>
-      <!-- insert button here -->
-    </article> <!-- close ger_guest article -->
+             <p><a href= "">See image</a>
+             </p>
+           </div> <!-- close text  -->
+         </div> <!-- close col  -->
+       </div> <!-- close row  -->
+     </div> <!-- close container  -->
+   </div> <!-- close overlay  -->
+</div> <!-- close ger_guest -->
 
 <!-- begin conditions section -->
-  <section id="consequences">
 
-    <article id="unemployment">
 
-      <p>Unemployment is an immigrant's biggest obstacle to integration.
-      </p>
+<div class="image" id="unemployment">
+  <div class="overlay">
+    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+    <a href="#ger_guest" class="btn btn_round_outline back float-left back"><</a>
+    <a href="#far_right" class="btn btn_round_outline float-right next">></a>
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-9 col-lg-5">
+           <div class="text textbox">
 
-      <p>
-      According to <a href= "https://www.migrationpolicy.org/article/challenge-french-diversity">Brookings</a>, the unemployment rate among immigrants in France is usually twice as high as the national rate of unemployment. In 2016, the <a href= "https://data.oecd.org/migration/foreign-born-unemployment.htm#indicator-chart">Organisation for Economic Co-operation and Development</a> reported that the national unemployment rate in Germany was 3.6 while foreign-born unemployment reached 6.8 percent.
-      </p>
+             <p>Unemployment is an immigrant's biggest obstacle to integration.
+             </p>
 
-      <p><a href= "">See image</a>
-      </p>
-      <!-- insert button here -->
-    </article> <!-- close uk_migration_waves article -->
+             <p>
+              According to <a href= "https://www.migrationpolicy.org/article/challenge-french-diversity">Brookings</a>, the unemployment rate among immigrants in France is usually twice as high as the national rate of unemployment. In 2016, the <a href= "https://data.oecd.org/migration/foreign-born-unemployment.htm#indicator-chart">Organisation for Economic Co-operation and Development</a> reported that the national unemployment rate in Germany was 3.6 while foreign-born unemployment reached 6.8 percent.
+             </p>
 
-    <article id="far_right">
-      <p>Political parties in the far right have gained significant popularity in both France and Germany.
-      </p>
+             <p><a href= "">See image</a>
+             </p>
+           </div> <!-- close text  -->
+         </div> <!-- close col  -->
+       </div> <!-- close row  -->
+     </div> <!-- close container  -->
+   </div> <!-- close overlay  -->
+  </div> <!-- close uk_migration_waves article -->
 
-      <p>Marine le Pen, the leader of the National Front, came in second place during the 2017 French presidential election.
-      </p>
+<div class="image" id="far_right">
+  <div class="overlay">
+    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+    <a href="#unemployment" class="btn btn_round_outline back float-left back"><</a>
+    <a href="#" class="btn btn_round_outline float-right next">></a>
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-9 col-lg-5">
+           <div class="text textbox">
+             <p>Political parties in the far right have gained significant popularity in both France and Germany.
+             </p>
 
-      <p>Germany’s nationalist party, Alternative for Germany, became the third largest party in the federal parliament in 2017.
-      </p>
+             <p>Marine le Pen, the leader of the National Front, came in second place during the 2017 French presidential election.
+             </p>
 
-      <p><a href= "">See image</a>
-      </p>
-      <!-- insert button here -->
-    </article> <!-- close far_right article -->
+             <p>Germany’s nationalist party, Alternative for Germany, became the third largest party in the federal parliament in 2017.
+             </p>
 
-  </section>  <!-- close consequences section -->
+             <p><a href= "">See image</a>
+             </p>
+           </div> <!-- close text  -->
+         </div> <!-- close col  -->
+       </div> <!-- close row  -->
+     </div> <!-- close container  -->
+   </div> <!-- close overlay  -->
+  </div> <!-- close far_right article -->
+
+
+
+
+
+<script>
+Highcharts.chart('container', {
+    chart: {
+        type: 'bar'
+    },
+    title: {
+        text: 'Concern about refugees tied to views of Muslims'
+    },
+    subtitle: {
+        text: 'Among those with a ___ view of Muslims in our country, % saying refugees will increase the likelihood of terrorism'
+    },
+    xAxis: {
+        categories: ['France', 'Germany'],
+        title: {
+            text: null
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: '% of people',
+            align: 'high'
+        },
+        labels: {
+            overflow: 'justify'
+        }
+    },
+    tooltip: {
+        valueSuffix: ' percent'
+    },
+    plotOptions: {
+        bar: {
+            dataLabels: {
+                enabled: true
+            }
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'top',
+        x: -40,
+        y: 95,
+        floating: true,
+        borderWidth: 0,
+        backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+        shadow: true
+    },
+    credits: {
+        enabled: false
+    },
+    series: [{
+        name: 'Favorable views',
+        data: [34, 52]
+    }, {
+        name: 'Unfavorable views',
+        data: [75, 84]
+    }]
+});
+</script>
+
 
   <!-- Scripts  -->
+
       <script src="scripts/jquery-slim.min.js"></script>
       <script src="scripts/popper.min.js"></script>
       <script src="scripts/bootstrap.min.js"></script>
-      <script src="scripts/ie10-viewport-bug-workaround.js"></script>
       <script src="scripts/main.js"></script>
+      <script src="scripts/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 </htlm>
