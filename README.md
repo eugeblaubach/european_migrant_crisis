@@ -2,7 +2,7 @@ European Migrant Crisis
 
 Week 1
 
-Before starting on the content, I spent time deciding the best way to lay out the app. I used computer paper to storyboard the slides. This helped significantly when I was marking up the HTML. My sections and articles are strategically labeled and ordered to accommodate the web design. I also conducted extensive research on the topic and wrote the content that will be featured on the app. It was difficult to condense all the information. I decided to deviate from the original plan and only focus on France and Germany. Otherwise it would be way too much information for the site. 
+Before starting on the content, I spent time deciding the best way to lay out the app. I used computer paper to storyboard the slides. This helped significantly when I was marking up the HTML. My sections and articles are strategically labeled and ordered to accommodate the web design. I also conducted extensive research on the topic and wrote the content that will be featured on the app. It was difficult to condense all the information. I decided to deviate from the original plan and only focus on France and Germany. Otherwise it would be way too much information for the site.
 
 I also researched how to make the page work like slides.
 
@@ -19,3 +19,11 @@ Overlay effect
 https://www.w3schools.com/howto/howto_css_overlay.asp   
 
 I'm pleased with the work I've done so far, especially how i've been able to use website design to enhance my argument and make it easier to digest. I have a much clearer vision of what I want to do, but naturally I have more questions now than before I started. After speaking with you on Tuesday, I expect to have a clear strategy for tackling the script.
+
+Week 2
+
+This week I made some serious progress. With the help of this tutorial (https://www.youtube.com/watch?v=Enh5Dc9L_M0&t=302s), I figured out how to set a background image within a container. This allowed me to stack the background images one on top of the other. By using z-index, I was able to layer an overlay (a black square with opacity) on top of the image. I also learned that Bootstrap doesn't center objects vertically. Consequently, centering the text is the first slide was a challenge.
+
+I created all the buttons that let the user navigate through the app. The buttons link to anchor points (containers) down the page. I also styled the buttons and positioned them on the page. They are responsive.
+
+As for javascript, I figured out the modal box, which was a nightmare. I'm pretty sure the instructions on the Bootstrap website are wrong. I got it to work, and after styling it next week it should look really good. I also added a Highchart, but I don't like how it looks. I'm not sure if it can be styled. We'll see next week. 
