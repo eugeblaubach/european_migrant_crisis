@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="styles/main.css">
   <script src="https://code.highcharts.com/highcharts.js"></script>
-  <script src="https://code.highcharts.com/themes/avocado.js"></script>
+  <script src="http://code.highcharts.com/highcharts-more.js"></script>
   <script src="https://use.fontawesome.com/e1b3d30ed3.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
                 <p>Closer Look</p>
                 <h1>European Migrant Crisis</h1>
                 <p> A visual story by Eugenia Blaubach</p>
-                <a href="#explanation1" class="btn btn_round_outline">Begin</a>
+                <a href="#explanation1" id="begin_btn" class="btn btn_round_outline">Begin</a>
                 </p>
             </div> <!-- close text  -->
           </div> <!-- close col  -->
@@ -108,9 +108,9 @@
        <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-5">
             <div class="text textbox">
-              <p>The influx of migrants has been met by a surge of nationalist and anti-Muslim sentiments throughout Europe.
+              <p>The influx of migrants has been met by a surge of nationalist and anti-Muslim sentiments throughout Europe. Many Europeans are concerned that incoming refugees will increase domestic terrorism.
               </p>
-              <p>According to a <a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/">2016 Pew Research Center study</a>, negative opinions about Muslims have increased in Greece, Spain, Italy, France and the UK since 2015.
+              <p>According to a <a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/">2016 Pew Research Center study</a>, negative opinions about Muslims have increased in Poland, Spain, France, Germany and the UK since 2015.
               </p>
               <div  id="container1"></div>
             </div> <!-- close text  -->
@@ -120,7 +120,7 @@
     </div> <!-- close overlay  -->
 </div>  <!-- close explanation3   -->
 
-<div class="image lepen" id="explanation5">
+<div class="image guard" id="explanation5">
   <div class="overlay">
     <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
     <a href="#explanation4" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
@@ -130,12 +130,7 @@
          <div class="col-sm-12 col-md-9 col-lg-5">
            <div class="text textbox">
 
-
-              <p>Many Europeans believe incoming refugees increase the possibility of future terrorist attacks, and more than half of the countries surveyed also said refugees would take away jobs and social benefits.
-              </p>
-
-              <p><a href= "https://commons.wikimedia.org/wiki/File:A_line_of_Syrian_refugees_crossing_the_border_of_Hungary_and_Austria_on_their_way_to_Germany._Hungary,_Central_Europe,_6_September_2015.jpg">See image</a>
-              </p>
+              <p>France and Germany have the largest Muslim populations in Europe, but Syrian refugees only make up about one percent of the total Muslim population in each country.</p>
 
             </div> <!-- close text  -->
           </div> <!-- close col  -->
@@ -144,47 +139,31 @@
     </div> <!-- close overlay  -->
 </div>  <!-- close explanation3   -->
 
-<!-- explanation4 page -->
-  <div class="image" id="explanation4">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#explanation3" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#explanation5" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
-             <div class="text textbox">
-               <p>France and Germany have the largest Muslim populations in Europe, but Syrian refugees only make up about one percent of the total population in each country.</p>
-             </div> <!-- close text  -->
-           </div> <!-- close col  -->
-         </div> <!-- close row  -->
-       </div> <!-- close container  -->
-     </div> <!-- close overlay  -->
-  </div>  <!-- close explanation4 section  -->
-
-<div class="image" id="explanation5">
+<div class="image" id="explanation6">
   <div class="overlay">
     <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#explanation4" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#explanation6" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    <a href="#explanation5" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    <a href="#explanation7" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <div class="text textbox">
+
                <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims already living in Europe.
                </p>
+               <div class="col-lg-6" id="container2"></div>
              </div> <!-- close text  -->
            </div> <!-- close col  -->
-          <div class="col-lg-6" id="container2"></div>
+
          </div> <!-- close row  -->
        </div> <!-- close container  -->
      </div> <!-- close overlay  -->
   </div>  <!-- close explanation4 section  -->
 
-  <div class="image" id="explanation6">
+  <div class="image" id="explanation7">
     <div class="overlay">
       <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#explanation5" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+      <a href="#explanation6" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
       <a href="#fr_migration_waves" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
       <div class="container">
         <div class="row">
@@ -460,7 +439,7 @@ Highcharts.chart('container1', {
     },
     tooltip: {
         shared: true,
-
+        valueSuffix:'%'
     },
     plotOptions: {
         column: {
@@ -494,10 +473,6 @@ Highcharts.chart('container1', {
 
 
 
-
-
-
-
 <script>
 Highcharts.chart('container2', {
     chart: {
@@ -505,21 +480,37 @@ Highcharts.chart('container2', {
         type: 'bar'
     },
     title: {
-        text: 'Concern about refugees tied to views of Muslims'
-    },
-    subtitle: {
-        text: 'Among those with a ___ view of Muslims in our country, % saying refugees will increase the likelihood of terrorism'
-    },
-    xAxis: {
-        categories: ['France', 'Germany'],
-        title: {
-            text: null
+        text: 'Concern about refugees tied to views of Muslims',
+        style: {
+          color: '#fff',
         }
     },
+    subtitle: {
+        text: '',
+        style: {
+          color: '#fff',
+        }
+    },
+    xAxis: {
+        categories: ['Preexisting unavorable views', 'Preexisting favorable views'],
+        labels: {
+           style: {
+           color: '#fff'
+           }
+        },
+        title: {
+            text: null,
+
+        }
+    },
+
     yAxis: {
         min: 0,
         title: {
-            text: '% of people',
+            text: '% saying refugees will increase the likelihood of terrorism',
+            style: {
+              color: '#fff'
+              },
             align: 'high'
         },
         labels: {
@@ -527,7 +518,11 @@ Highcharts.chart('container2', {
         }
     },
     tooltip: {
-        valueSuffix: ' percent'
+        text: '% saying refugees will increase the likelihood of terrorism',
+        valueSuffix: ' percent',
+        formatter: function() {
+     return '% saying refugees will increase the likelihood of terrorism';
+}
     },
     plotOptions: {
         bar: {
@@ -537,37 +532,39 @@ Highcharts.chart('container2', {
         }
     },
     legend: {
-        layout: 'vertical',
+        layout: 'horizontal',
         align: 'right',
         verticalAlign: 'top',
-        x: -40,
-        y: 95,
+        x: -20,
+        y: 55,
         floating: true,
         borderWidth: 0,
-        backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-        shadow: true
+        backgroundColor: null,
+        shadow: null,
+        itemStyle: {
+          color: '#fff'
+          },
     },
     credits: {
         enabled: false
     },
     series: [{
-        name: 'Favorable views',
-        data: [34, 52]
+        name: 'France',
+        data: [75, 34]
     }, {
-        name: 'Unfavorable views',
-        data: [75, 84]
+        name: 'Germany',
+        data: [84, 52]
     }]
 });
 </script>
-
 
   <!-- Scripts  -->
 
       <script src="scripts/jquery-slim.min.js"></script>
       <script src="scripts/popper.min.js"></script>
       <script src="scripts/bootstrap.min.js"></script>
-      <script src="scripts/main.js"></script>
       <script src="scripts/ie10-viewport-bug-workaround.js"></script>
+      <script src="scripts/main.js"></script>
 
 </body>
 </html>

@@ -4,8 +4,6 @@ html{
     margin: 0;
   }
 
-
-
 .image {
   background-size: cover;
   background-position: center center;
@@ -69,15 +67,14 @@ h1 {
 }
 
 #container1 {
-	height: 350px;
-
+	height: 340px;
 	max-width: 800px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #container2 {
-	height: 300px;
-	min-width: 310px;
+	height: 350px;
 	max-width: 800px;
+  margin-top: 50px;
 }
 
 
