@@ -9,6 +9,7 @@
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/themes/avocado.js"></script>
   <script src="https://use.fontawesome.com/e1b3d30ed3.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +26,6 @@
                 <h1>European Migrant Crisis</h1>
                 <p> A visual story by Eugenia Blaubach</p>
                 <a href="#explanation1" class="btn btn_round_outline">Begin</a>
-                <p><a href= "https://commons.wikimedia.org/wiki/File:Women_and_children_among_Syrian_refugees_striking_at_the_platform_of_Budapest_Keleti_railway_station._Refugee_crisis._Budapest,_Hungary,_Central_Europe,_4_September_2015._(3).jpg">See image</a>
                 </p>
             </div> <!-- close text  -->
           </div> <!-- close col  -->
@@ -55,7 +55,7 @@
   <!-- insert button here -->
   </div>  <!-- close explanation1 section  -->
 
-<div class="image boat" id="explanation2">
+<div class="image welcome" id="explanation2">
   <div class="overlay">
     <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
     <a href="#explanation1" class="btn btn_round_outline float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
@@ -65,9 +65,6 @@
           <div class="col-sm-12 col-md-9 col-lg-5">
             <div class="text textbox">
               <p>For others, it conjures up memories of Europe’s recent terrorist attacks, heightens concerns about national security and sparks political debate over the level of access migrants should be granted to the region.
-              </p>
-
-              <p><a href= "https://commons.wikimedia.org/wiki/File:20151030_Syrians_and_Iraq_refugees_arrive_at_Skala_Sykamias_Lesvos_Greece_2.jpg">See image</a>
               </p>
             </div> <!-- close text  -->
           </div> <!-- close col  -->
@@ -94,9 +91,6 @@
                A large majority of those individuals were fleeing war-torn countries like Syria, Iraq and Afghanistan where Islam is the dominant religion.
                </p>
 
-               <p><a href= "https://commons.wikimedia.org/wiki/File:A_line_of_Syrian_refugees_crossing_the_border_of_Hungary_and_Austria_on_their_way_to_Germany._Hungary,_Central_Europe,_6_September_2015.jpg">See image</a>
-               </p>
-
              </div> <!-- close text  -->
            </div> <!-- close col  -->
          </div> <!-- close row  -->
@@ -105,7 +99,7 @@
  </div>  <!-- close explanation2   -->
 
 <!-- explanation3 page -->
- <div class="image" id="explanation4">
+ <div class="image antiimmigrant" id="explanation4">
    <div class="overlay">
      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
      <a href="#explanation3" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
@@ -114,11 +108,28 @@
        <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-5">
             <div class="text textbox">
-              <p>The influx of migrants has been met by a surge of nationalism and anti-Muslim sentiments throughout Europe.
+              <p>The influx of migrants has been met by a surge of nationalist and anti-Muslim sentiments throughout Europe.
               </p>
-
               <p>According to a <a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/">2016 Pew Research Center study</a>, negative opinions about Muslims have increased in Greece, Spain, Italy, France and the UK since 2015.
               </p>
+              <div  id="container1"></div>
+            </div> <!-- close text  -->
+          </div> <!-- close col  -->
+        </div> <!-- close row  -->
+      </div> <!-- close container  -->
+    </div> <!-- close overlay  -->
+</div>  <!-- close explanation3   -->
+
+<div class="image lepen" id="explanation5">
+  <div class="overlay">
+    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+    <a href="#explanation4" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    <a href="#explanation6" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-9 col-lg-5">
+           <div class="text textbox">
+
 
               <p>Many Europeans believe incoming refugees increase the possibility of future terrorist attacks, and more than half of the countries surveyed also said refugees would take away jobs and social benefits.
               </p>
@@ -164,7 +175,7 @@
                </p>
              </div> <!-- close text  -->
            </div> <!-- close col  -->
-          <div class="col-lg-6" id="container"></div>
+          <div class="col-lg-6" id="container2"></div>
          </div> <!-- close row  -->
        </div> <!-- close container  -->
      </div> <!-- close overlay  -->
@@ -392,8 +403,105 @@
 
 
 <script>
-Highcharts.chart('container', {
+Highcharts.chart('container1', {
     chart: {
+    		backgroundColor: null,
+        type: 'column'
+    },
+    title: {
+        text: 'Unfavorable views of Muslims on the rise in Europe',
+        style: {
+          color: '#fff',
+        }
+    },
+    xAxis: {
+        categories: [
+            'Poland',
+            'Spain',
+            'France',
+            'Germany',
+            'UK'
+        ],
+        tickColor: '#fff',
+        labels: {
+           style: {
+               color: '#fff'
+           }
+       }
+    },
+    yAxis: [{
+        min: 0,
+        labels: {
+           style: {
+               color: '#fff'
+           }
+       },
+        title: {
+            text: '% unfavorable view of Muslims',
+            style: {
+              color: '#fff',
+            }
+
+        }
+    }, {
+        title: {
+            text: '',
+            style: {
+              color: '#fff',
+            }
+        },
+        opposite: true
+    }],
+    legend: {
+      itemStyle: {
+        color: '#fff'
+        },
+      shadow: false,
+    },
+    tooltip: {
+        shared: true,
+
+    },
+    plotOptions: {
+        column: {
+            grouping: false,
+            shadow: false,
+            borderWidth: 0,
+        },
+
+    },
+    series: [{
+        name: '2015',
+        color: 'rgba(165,170,217,1)',
+        data: [56, 42, 24, 24, 19],
+        pointPadding: 0.3,
+        pointPlacement: -0.2
+    }, {
+        name: '2016',
+        color: 'rgba(126,86,134,.9)',
+        data: [66, 50, 29, 29, 28],
+        pointPadding: 0.4,
+        pointPlacement: -0.2
+
+    }
+  ]
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+Highcharts.chart('container2', {
+    chart: {
+        backgroundColor: null,
         type: 'bar'
     },
     title: {
