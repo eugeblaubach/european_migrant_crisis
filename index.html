@@ -108,7 +108,7 @@
        <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-5">
             <div class="text textbox">
-              <p>The influx of migrants has been met by a surge of nationalist and anti-Muslim sentiments throughout Europe. Many Europeans are concerned that incoming refugees will increase domestic terrorism.
+              <p>The influx of migrants has been met by a surge of nationalist and anti-Muslim sentiments throughout Europe.
               </p>
               <p>According to a <a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/">2016 Pew Research Center study</a>, negative opinions about Muslims have increased in Poland, Spain, France, Germany and the UK since 2015.
               </p>
@@ -120,38 +120,22 @@
     </div> <!-- close overlay  -->
 </div>  <!-- close explanation3   -->
 
-<div class="image guard" id="explanation5">
+<div class="image metro3" id="explanation5">
   <div class="overlay">
     <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
     <a href="#explanation4" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
     <a href="#explanation6" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="text textbox">
-
-              <p>France and Germany have the largest Muslim populations in Europe, but Syrian refugees only make up about one percent of the total Muslim population in each country.</p>
-
-            </div> <!-- close text  -->
-          </div> <!-- close col  -->
-        </div> <!-- close row  -->
-      </div> <!-- close container  -->
-    </div> <!-- close overlay  -->
-</div>  <!-- close explanation3   -->
-
-<div class="image" id="explanation6">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#explanation5" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#explanation7" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-sm-12 col-md-9 col-lg-5">
             <div class="text textbox">
 
-               <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims already living in Europe.
+               <p>However, recent refugees make up a small percentage of Europe's Muslim population.
                </p>
-               <div class="col-lg-6" id="container2"></div>
+               <p>
+                People from Islamic nations have been migrating to Europe since the end of World War II. By 1970, there were already an estimated 19 million Muslims living in the region.
+               </p>
+               <div id="container2"></div>
              </div> <!-- close text  -->
            </div> <!-- close col  -->
 
@@ -159,6 +143,30 @@
        </div> <!-- close container  -->
      </div> <!-- close overlay  -->
   </div>  <!-- close explanation4 section  -->
+
+  <div class="image falafel2" id="explanation6">
+    <div class="overlay">
+      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+      <a href="#explanation5" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+      <a href="#explanation7" class="btn btn_round_outline float-right next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-9 col-lg-5">
+              <div class="text textbox">
+
+                 <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims that had already been living in the region.
+                 </p>
+
+                 <p>In fact, the<a href= "http://www.pewglobal.org/2016/07/11/negative-views-of-minorities-refugees-common-in-eu/"> Pew Research Center </a> found that Europeans who have preexisting unfavorable views of Muslims are more likely to say that refugees will increase the likelihood of terrorism in their country .
+                 </p>
+
+               </div> <!-- close text  -->
+             </div> <!-- close col  -->
+
+           </div> <!-- close row  -->
+         </div> <!-- close container  -->
+       </div> <!-- close overlay  -->
+    </div>  <!-- close explanation4 section  -->
 
   <div class="image" id="explanation7">
     <div class="overlay">
@@ -170,8 +178,9 @@
            <div class="col-sm-12 col-md-9 col-lg-5">
              <div class="text textbox">
 
+               <p>To fully understand Europe's current migrant crisis, it’s essential to look back at previous waves of migration to the region.</p>
 
-               <p>To understand the current crisis, it’s essential to look back at previous waves of migration to the region.</p>
+               <p>France and Germany have the largest Muslim populations in Europe, but Syrian refugees only make up about one percent of the total Muslim population in each country.</p>
 
                <p>Let’s take a closer look at the influx and treatment of immigrants in France and Germany prior to the current crisis.</p>
 
@@ -188,7 +197,7 @@
 
 <!-- begin france section -->
 <!-- fr_migration_waves -->
-    <div class="image" id="fr_migration_waves">
+    <div class="image belgium" id="fr_migration_waves">
       <div class="overlay">
         <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
         <a href="#explanation4" class="btn btn_round_outline back float-left back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
@@ -468,13 +477,114 @@ Highcharts.chart('container1', {
 </script>
 
 
+<script>
+Highcharts.chart('container2', {
+    chart: {
+        backgroundColor: null,
+    },
+    title: {
+
+        text: 'Estimate of Muslim Population in Europe, 1950–2010',
+        style: {
+          color: '#fff',
+        }
+    },
+
+    subtitle: {
+        text: 'Source: International Journal of Environmental Science and Development',
+         	 style: {
+          color: '#fff',
+        }
+    },
+
+    xAxis: {
+           tickColor: '#fff',
+           labels: {
+           	style: {
+               color: '#fff'
+           		}
+       		}
+    },
+
+    yAxis: {
+   				 min: 0,
+            max: 6500000,
+            tickInterval: 1000000,
+            gridLineColor: '#fff',
+        title: {
+            text: 'Population',
+            style: {
+               color: '#fff'
+           }
+        },
+        labels: {
+           style: {
+               color: '#fff'
+           }
+       }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle',
+        itemStyle: {
+          color: '#fff'
+          },
+    },
+
+    plotOptions: {
+        series: {
+        gridLineColor: '#197F07',
+            label: {
+                connectorAllowed: false,
+                style: {
+          				 color: '#fff'
+          			}
+           	},
+            pointStart: 1950,
+            pointInterval: 10,
+
+        }
+    },
+
+    series: [{
+        name: 'France',
+        data: [230075, 913477 , 1980067 , 2481688, 3978941, 4730246, 6263658]
+    }, {
+        name: 'Germany',
+        color: 'rgba(165,170,217,1)',
+        data: [20513 , 21844 , 1172539 , 1722349, 2462424 , 3200916, 4283364]
+    }, {
+        name: 'United Kingdom',
+        color: 'rgba(165,250,217,1)',
+        data: [101232, 104744 , 667958 , 1238913 , 1488175 , 1596391 , 2475971]
+
+    }],
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+
+});
+</script>
 
 
 
 
 
 <script>
-Highcharts.chart('container2', {
+Highcharts.chart('container3', {
     chart: {
         backgroundColor: null,
         type: 'bar'
@@ -492,10 +602,10 @@ Highcharts.chart('container2', {
         }
     },
     xAxis: {
-        categories: ['Preexisting unavorable views', 'Preexisting favorable views'],
+        categories: ['Preexisting favorable views', 'Preexisting unfavorable views'],
         labels: {
            style: {
-           color: '#fff'
+             color: '#fff'
            }
         },
         title: {
@@ -514,7 +624,8 @@ Highcharts.chart('container2', {
             align: 'high'
         },
         labels: {
-            overflow: 'justify'
+            overflow: 'justify',
+
         }
     },
     tooltip: {
@@ -532,28 +643,27 @@ Highcharts.chart('container2', {
         }
     },
     legend: {
-        layout: 'horizontal',
-        align: 'right',
-        verticalAlign: 'top',
-        x: -20,
-        y: 55,
-        floating: true,
-        borderWidth: 0,
-        backgroundColor: null,
-        shadow: null,
-        itemStyle: {
-          color: '#fff'
-          },
+      layout: 'horizontal',
+      align: 'right',
+      verticalAlign: 'top',
+      x: 0,
+      y: 55,
+      floating: true,
+      backgroundColor: null,
+      shadow: false,
+      itemStyle: {
+        color: '#fff'
+        }
     },
     credits: {
         enabled: false
     },
     series: [{
         name: 'France',
-        data: [75, 34]
+        data: [34, 75]
     }, {
         name: 'Germany',
-        data: [84, 52]
+        data: [52, 84]
     }]
 });
 </script>
