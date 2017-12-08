@@ -23,6 +23,7 @@ html{
   background-color: rgba(28, 28, 28, 0.7);
   color: #fff;
   font-family: Lato, Verdana, sans-serif;
+  z-index: 5;
 }
 
 .text-center {
@@ -31,35 +32,35 @@ html{
   z-index: 3;
 }
 
-.subheading {
-  background-color: rgba(28, 28, 28, 0.7);
-  color: #fff;
-  font-family: Lato, Verdana, sans-serif;
-
-}
-
 img {
   position: absolute;
   margin: 20px;
 }
 
-#intro {
-     background-image: url('../images/intro.jpg');
-}
 
 h1 {
   font-size: 400%
 }
 
-.boat {
-  background-image: url('../images/boat.jpg');
+.subheading {
+  color: #fff;
 }
+
 
 .textbox {
   padding: 15px;
   margin-top: 20%;
   font-size: 2.2vh;
   border-radius: 3px;
+  z-index: 4;
+}
+
+#intro {
+     background-image: url('../images/intro.jpg');
+}
+
+.boat {
+  background-image: url('../images/boat.jpg');
 }
 
 .guard{
@@ -128,6 +129,29 @@ h1 {
 .jean{
   background-image: url('../images/jean.jpg');
 }
+.jean2{
+  background-image: url('../images/jean2.jpg');
+}
+
+.italian {
+  background-image: url('../images/italian.jpg');
+}
+
+.italian2 {
+  background-image: url('../images/italian2.jpg');
+}
+
+.mine {
+  background-image: url('../images/mine.jpg');
+}
+
+.workers {
+  background-image: url('../images/workers.jpg');
+}
+
+.bananas {
+  background-image: url('../images/bananas.jpg');
+}
 
 #container1 {
 	height: 340px;
@@ -164,17 +188,18 @@ h1 {
 
 .back {
 
-  padding: 9px 14px;
-  margin-left: 10px;
+  padding: 9px 12px;
   margin-top: 45vh;
+  z-index: 10;
 }
 
 .next {
 
-  padding: 9px 14px;
-  margin-right: 10px;
+  padding: 9px 12px;
   margin-top: 45vh;
+  z-index: 10;
 }
+
 
 .btn_round_outline:active {
   background: rgba(0, 0, 0, 0.5);
@@ -187,7 +212,7 @@ h1 {
 }
 .modal-dialog {
    position:sticky;
-   top:70px;
+   top:90px;
    right:90px;
    left:auto;
    bottom:0;
