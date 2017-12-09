@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-  window.addEventListener("scroll", preventMotion, false);
-  window.addEventListener("touchmove", preventMotion, false);
-
-  function preventMotion(event)
-  {
-      event.preventDefault();
-      event.stopPropagation();
-  }
-
   $(".effect").click(function(){
      $(".overlay").hide();
      $(".textbox").hide();
