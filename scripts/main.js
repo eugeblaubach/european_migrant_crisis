@@ -1,6 +1,13 @@
 $(document).ready(function(){
 
-  document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+  window.addEventListener("scroll", preventMotion, false);
+  window.addEventListener("touchmove", preventMotion, false);
+
+  function preventMotion(event)
+  {
+      event.preventDefault();
+      event.stopPropagation();
+  }
 
   $(".effect").click(function(){
      $(".overlay").hide();
