@@ -26,4 +26,12 @@ This week I made some serious progress. With the help of this tutorial (https://
 
 I created all the buttons that let the user navigate through the app. The buttons link to anchor points (containers) down the page. I also styled the buttons and positioned them on the page. They are responsive.
 
-As for javascript, I figured out the modal box, which was a nightmare. I'm pretty sure the instructions on the Bootstrap website are wrong. I got it to work, and after styling it next week it should look really good. I also added a Highchart, but I don't like how it looks. I'm not sure if it can be styled. We'll see next week. 
+As for javascript, I figured out the modal box, which was a nightmare. I'm pretty sure the instructions on the Bootstrap website are wrong. I got it to work, and after styling it next week it should look really good. I also added a Highchart, but I don't like how it looks. I'm not sure if it can be styled. We'll see next week.
+
+Week 3
+
+Just a few last minute touches left. This week I styled the whole site. Changed the buttons. Removed backgrounds from all of my Highcharts and changed all their label colors. This was incredibly tedious, but it paid off. The graphs really work with the design now. Finding good quality/public domain images also took forever. I added some JavaScript so that the overlay and the text box fade in every time you click the button. I styled the modal box and repositioned it. That was a challenge, but it looks great now.
+
+I added and changed up some of the content. I ended up learning so much about Germany (maybe too much) and became even more passionate about migration.
+
+I'm still having trouble getting it to work on Safari. I'll figure it out one day. I'm proud of this though. I've spent way too much time on it, but I think it will be something I can show to a potential employer.
