@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+
   $(".effect").click(function(){
      $(".overlay").hide();
      $(".textbox").hide();

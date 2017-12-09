@@ -4,6 +4,14 @@ html{
     margin: 0;
   }
 
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  body {
+    position: relative
+  }
+
 .image {
   background-size: cover;
   background-position: center center;
@@ -149,8 +157,20 @@ h1 {
   background-image: url('../images/workers.jpg');
 }
 
-.bananas {
-  background-image: url('../images/bananas.jpg');
+.kids {
+  background-image: url('../images/kids.jpg');
+}
+
+.deli {
+  background-image: url('../images/deli.jpg');
+}
+
+.movie {
+  background-image: url('../images/movie.jpg');
+}
+
+.supermarket {
+  background-image: url('../images/supermarket.jpg');
 }
 
 #container1 {
@@ -189,6 +209,7 @@ h1 {
 .back {
 
   padding: 9px 12px;
+  margin-left: 10px;
   margin-top: 45vh;
   z-index: 10;
 }
@@ -196,6 +217,7 @@ h1 {
 .next {
 
   padding: 9px 12px;
+  margin-right: 10px;
   margin-top: 45vh;
   z-index: 10;
 }
