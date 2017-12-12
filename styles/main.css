@@ -225,7 +225,7 @@ a:hover {
 
 
 .modal-dialog {
-   position: static;
+   position: sticky;
    top:35px;
    right:90px;
    left:auto;

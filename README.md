@@ -35,3 +35,11 @@ Just a few last minute touches left. This week I styled the whole site. Changed 
 I added and changed up some of the content. I ended up learning so much about Germany (maybe too much) and became even more passionate about migration.
 
 I'm still having trouble getting it to work on Safari. I'll figure it out one day. I'm proud of this though. I've spent way too much time on it, but I think it will be something I can show to a potential employer.
+
+Final summary of my project
+
+I have learned so much over the past three weeks. This project was insane and incredibly rewarding at the same time. I realized that the best way to learn code is just to code. I constantly ran into problems that sent me down some pretty dreadful stack overflow spirals, but nothing beats the feeling of clicking refresh and seeing you finally found the solution.
+
+I went into this project loving Bootstrap. Now, I have a love-hate relationship with it. It has a con for every pro. If I have time during the break, I might go back a rebuild the site without it.
+
+Overall it was a great experience. I think back to the beginning of the semester when we were still learning about span elements, and I see that we’ve come so far.
