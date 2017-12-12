@@ -2,9 +2,9 @@ $(document).ready(function(){
 
   $(".effect").click(function(){
      $(".overlay").hide();
-     $(".textbox").hide();
+     $(".text").hide();
      $(".overlay").fadeIn(1000);
-     $(".textbox").delay(700).fadeIn(1500);
+     $(".text").delay(700).fadeIn(1500);
   });
 
   $(".fasteffect").click(function(){

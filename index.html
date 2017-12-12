@@ -4,261 +4,457 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>European Migrant Crisis</title>
+<!-- stylesheets -->
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="styles/main.css">
+<!-- Highcharts -->
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="http://code.highcharts.com/highcharts-more.js"></script>
+<!-- Fontawesome -->
   <script src="https://use.fontawesome.com/e1b3d30ed3.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 </head>
 
 <body>
 
 <!-- intro page -->
-  <div class="image" id="intro">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-           <div class="col-lg-12">
-             <div class="text-center">
-                <p>IDENTITY</p>
-                <p>Closer Look</p>
-                <h1>European Migrant Crisis</h1>
-                <p> A visual story by Eugenia Blaubach</p>
-                <a href="#explanation1" id="begin_btn" class="btn btn_round_outline effect">Begin</a>
-            </div> <!-- close text  -->
-          </div> <!-- close col  -->
-        </div> <!-- close row  -->
-      </div> <!-- close container  -->
-    </div> <!-- close overlay  -->
-  <!-- insert button here -->
-  </div>  <!-- close intro section  -->
-
-  <!-- explanation1 page -->
-    <div class="image boat" id="explanation1">
+    <div class="image" id="intro">
       <div class="overlay">
-        <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-        <a href="#intro" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a href="#explanation2" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
         <div class="container">
           <div class="row">
-             <div class="col-sm-12 col-md-9 col-lg-5">
-               <div class="text textbox">
-                <p>For some, Europe’s migrant crisis evokes images like this one: an overcrowded boat carrying Syrian and Iraqi refugees across the Mediterranean Sea.
-                </p>
+             <div class="col-lg-12">
+               <div class="text-center">
+
+                  <p class="identity" >IDENTITY</p>
+
+                  <p>Closer Look</p>
+
+                  <h1>European Migrant Crisis</h1>
+
+                  <p> A visual story by Eugenia Blaubach</p>
+
+                  <a href="#explanation1" id="begin_btn" class="btn btn_round_outline effect">Begin</a>
               </div> <!-- close text  -->
             </div> <!-- close col  -->
           </div> <!-- close row  -->
         </div> <!-- close container  -->
-      </div>
-    <!-- insert button here -->
+      </div> <!-- close overlay  -->
+    </div>  <!-- close intro section  -->
+
+
+<!-- explanation1 page -->
+    <div class="image boat" id="explanation1">
+      <div class="overlay">
+          <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+          <a href="#intro" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+          <a href="#explanation2" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <div class="container">
+          <div class="row align-items-start">
+             <div class="col-sm-12 col-md-9 col-lg-5">
+
+               <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                 <div class="mb-auto p-2">
+                   <div class="text textbox">
+                     <p>For some, Europe’s migrant crisis evokes images like this one: an overcrowded boat carrying Syrian and Iraqi refugees across the Mediterranean Sea.
+                     </p>
+                   </div> <!-- close text  -->
+                 </div><!-- close mb-auto p-2  -->
+
+                <div class="p-2">
+                  <div class="text footer">
+                    <p>Image by<a href= "https://commons.wikimedia.org/wiki/File%3AWomen_and_children_among_Syrian_refugees_striking_at_the_platform_of_Budapest_Keleti_railway_station._Refugee_crisis._Budapest%2C_Hungary%2C_Central_Europe%2C_4_September_2015._(3).jpg" target="_blank"> Mstyslav Chernov </a>
+                    </p>
+                  </div> <!-- close footer  -->
+                </div><!-- close p-2  -->
+              </div><!-- d-flex  -->
+
+            </div> <!-- close col  -->
+          </div> <!-- close row  -->
+        </div> <!-- close container  -->
+      </div> <!-- close overlay  -->
     </div>  <!-- close explanation1 section  -->
 
-<div class="image welcome" id="explanation2">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#explanation1" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#explanation3" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-9 col-lg-5">
-            <div class="text textbox">
-              <p>For others, it conjures up memories of Europe’s recent terrorist attacks, heightens concerns about national security and sparks political debate over the level of access migrants should be granted to the region.
-              </p>
-            </div> <!-- close text  -->
-          </div> <!-- close col  -->
-        </div> <!-- close row  -->
-      </div> <!-- close container  -->
-    </div> <!-- close overlay  -->
-  <!-- insert button here -->
-  </div>  <!-- close explanation1 section  -->
 
 <!-- explanation2 page -->
-  <div class="image guard" id="explanation3">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#explanation2" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#explanation4" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
-             <div class="text textbox">
-               <p>The UNHCR estimates that 362,000 refugees and migrants crossed the Mediterranean Sea in 2016.
-               </p>
-
-               <p>
-               A large majority of those individuals were fleeing war-torn countries like Syria, Iraq and Afghanistan where Islam is the dominant religion.
-               </p>
-
-             </div> <!-- close text  -->
-           </div> <!-- close col  -->
-         </div> <!-- close row  -->
-       </div> <!-- close container  -->
-     </div> <!-- close overlay  -->
- </div>  <!-- close explanation2   -->
-
-<!-- explanation3 page -->
- <div class="image antiimmigrant" id="explanation4">
-   <div class="overlay">
-     <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-     <a href="#explanation3" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-     <a href="#explanation5" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-     <div class="container">
-       <div class="row">
-          <div class="col-sm-12 col-md-9 col-lg-5">
-            <div class="text textbox">
-              <p>The influx of migrants has been met by a surge of nationalist and anti-Muslim sentiments throughout Europe.
-              </p>
-              <p>According to a <a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/">2016 Pew Research Center study</a>, negative opinions about Muslims have increased in Poland, Spain, France, Germany and the UK since 2015.
-              </p>
-              <div  id="container1"></div>
-            </div> <!-- close text  -->
-          </div> <!-- close col  -->
-        </div> <!-- close row  -->
-      </div> <!-- close container  -->
-    </div> <!-- close overlay  -->
-</div>  <!-- close explanation3   -->
-
-<div class="image metro3" id="explanation5">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#explanation4" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#explanation6" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-9 col-lg-5">
-            <div class="text textbox">
-
-               <p>However, recent refugees make up a small percentage of Europe's Muslim population.
-               </p>
-               <p>
-                People from Islamic nations have been migrating to Europe since the end of World War II. By 1970, there were already an estimated 19 million Muslims living in the region.
-               </p>
-               <div id="container2"></div>
-             </div> <!-- close text  -->
-           </div> <!-- close col  -->
-
-         </div> <!-- close row  -->
-       </div> <!-- close container  -->
-     </div> <!-- close overlay  -->
-  </div>  <!-- close explanation4 section  -->
-
-  <div class="image falafel2" id="explanation6">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#explanation5" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#explanation7" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    <div class="image welcome" id="explanation2">
+      <div class="overlay">
+          <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+          <a href="#explanation1" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+          <a href="#explanation3" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-9 col-lg-5">
-              <div class="text textbox">
 
-                 <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims that had already been living in the region.
-                 </p>
+              <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                <div class="mb-auto p-2">
+                  <div class="text textbox">
+                    <p>For others, it conjures up memories of Europe’s recent terrorist attacks, heightens concerns about national security and sparks political debate over the level of access migrants should be granted to the region.
+                    </p>
+                  </div> <!-- close text  -->
+                </div><!-- close mb-auto p-2  -->
 
-                 <p>In fact, the<a href= "http://www.pewglobal.org/2016/07/11/negative-views-of-minorities-refugees-common-in-eu/"> Pew Research Center </a> found that Europeans who have preexisting unfavorable views of Muslims are more likely to say refugees will increase the likelihood of terrorism in their country .
-                 </p>
+                <div class="p-2">
+                  <div class="text footer">
+                    <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:Refugees_Welcome_Demo_-_London,_England_-_12_Sep._2015_-_(1).jpg" target="_blank"> David Holt </a>
+                    </p>
+                  </div> <!-- close footer  -->
+                </div><!-- close p-2  -->
+              </div><!-- d-flex  -->
 
-               </div> <!-- close text  -->
+            </div> <!-- close col  -->
+          </div> <!-- close row  -->
+        </div> <!-- close container  -->
+      </div> <!-- close overlay  -->
+    </div>  <!-- close explanation2 section  -->
+
+
+<!-- explanation3 page -->
+    <div class="image guard" id="explanation3">
+      <div class="overlay">
+          <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+          <a href="#explanation2" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+          <a href="#explanation4" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <div class="container">
+          <div class="row">
+             <div class="col-sm-12 col-md-9 col-lg-5">
+
+               <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                 <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                     <p>
+                     The UNHCR estimates that 362,000 refugees and migrants crossed the Mediterranean Sea in 2016.
+                     </p>
+
+                     <p>
+                     A large majority of those individuals were fleeing war-torn countries like Syria, Iraq and Afghanistan where Islam is the dominant religion.
+                     </p>
+
+                   </div> <!-- close text  -->
+                 </div><!-- close mb-auto p-2  -->
+
+                 <div class="p-2">
+                   <div class="text footer">
+                     <p>Image by<a href= "https://en.wikipedia.org/wiki/File:Syrian_refugees_strike_at_the_platform_of_Budapest_Keleti_railway_station._Refugee_crisis._Budapest,_Hungary,_Central_Europe,_4_September_2015._(3).jpg" target="_blank"> Mstyslav Chernov </a>
+                     </p>
+                   </div> <!-- close footer  -->
+                 </div><!-- close p-2  -->
+               </div><!-- d-flex  -->
+
              </div> <!-- close col  -->
-
            </div> <!-- close row  -->
          </div> <!-- close container  -->
        </div> <!-- close overlay  -->
-    </div>  <!-- close explanation4 section  -->
+     </div>  <!-- close explanation3   -->
 
-  <div class="image tunnel" id="explanation7">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#explanation6" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#fr_intro" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
-             <div class="text textbox">
 
-               <p>To fully understand Europe's current migrant crisis, it’s essential to look back at previous waves of migration.</p>
+<!-- explanation4 page -->
+     <div class="image antiimmigrant" id="explanation4">
+       <div class="overlay">
+           <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+           <a href="#explanation3" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+           <a href="#explanation5" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+         <div class="container">
+           <div class="row">
+              <div class="col-sm-12 col-md-9 col-lg-5">
 
-               <p>France and Germany have the largest Muslim populations in the region. Let’s take a closer look at the influx of immigrants to those countries prior to the current crisis.</p>
+                <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                    <div class="text textbox">
 
-               <div id="container3"></div>
+                      <p>The influx of migrants has been met by a surge of racist, nationalist sentiments throughout Europe.
+                      </p>
+                      <p>According to a <a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/" target="_blank">2016 Pew Research Center study</a>, negative opinions about Muslims have increased in Poland, Spain, France, Germany and the UK since 2015.
+                      </p>
 
-             </div> <!-- close text  -->
-           </div> <!-- close col  -->
+                      <div  id="container1"></div>
 
-         </div> <!-- close row  -->
-       </div> <!-- close container  -->
-     </div> <!-- close overlay  -->
-  </div>  <!-- close explanation4 section  -->
+                    </div> <!-- close text  -->
+                  </div><!-- close mb-auto p-2  -->
+
+                  <div class="p-2">
+                    <div class="text footer">
+                      <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:02016_0360_Die_Islam-Zuwanderungsgegner_in_Polen.JPG" target="_blank"> Silar </a>
+                      </p>
+                    </div> <!-- close footer  -->
+                  </div><!-- close p-2  -->
+                </div><!-- d-flex  -->
+
+              </div> <!-- close col  -->
+            </div> <!-- close row  -->
+          </div> <!-- close container  -->
+        </div> <!-- close overlay  -->
+    </div>  <!-- close explanation4   -->
+
+
+<!-- explanation5 page -->
+    <div class="image metro3" id="explanation5">
+      <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#explanation4" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#explanation6" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-9 col-lg-5">
+
+                <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                    <div class="text textbox">
+
+                     <p>However, recent refugees make up a small percentage of Europe's Muslim population.
+                     </p>
+
+                     <p>
+                      People from Islamic nations have been migrating to Europe since the end of World War II. By 1970, there were already an estimated 19 million Muslims living in the region.
+                     </p>
+
+                     <div id="container2"></div>
+
+                   </div> <!-- close text  -->
+                 </div><!-- close mb-auto p-2  -->
+
+                   <div class="p-2">
+                     <div class="text footer">
+                       <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:St-Augustin_affluence_marche_r%C3%A9publicaine_par_Cramos.JPG" target="_blank"> Cramos </a>
+                       </p>
+                     </div> <!-- close footer  -->
+                   </div><!-- close p-2  -->
+                 </div><!-- d-flex  -->
+
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+       </div>  <!-- close explanation5 section  -->
+
+
+<!-- explanation6 page -->
+      <div class="image falafel2" id="explanation6">
+        <div class="overlay">
+              <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+              <a href="#explanation5" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+              <a href="#explanation7" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-9 col-lg-5">
+
+
+                  <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                    <div class="mb-auto p-2">
+                      <div class="text textbox">
+
+                       <p>The apprehension Europeans feel toward refugees today is fueled in part by their unfavorable views of Muslims that had already been living in the region.
+                       </p>
+
+                       <p>In fact, the<a href= "http://www.pewglobal.org/2016/07/11/negative-views-of-minorities-refugees-common-in-eu/" target="_blank"> Pew Research Center </a> found that Europeans who have preexisting unfavorable views of Muslims are more likely to say refugees will increase the likelihood of terrorism in their country.
+                       </p>
+
+
+                       <button type="button" class="btn btn_round_outline btn_small" id="modal_btn1" data-toggle="modal" data-target="#racism">Racism or Islamophobia?</button>
+
+                     </div> <!-- close text  -->
+                   </div> <!-- close mb-auto p-2  -->
+
+                   <div class="p-2">
+                     <div class="text footer">
+                       <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:Rue_des_Rosiers_4,_Paris_September_23,_2012.jpg" target="_blank"> Marko Kudjerski </a>
+                       </p>
+                     </div> <!-- close footer  -->
+                   </div><!-- close p-2  -->
+                 </div><!-- d-flex  -->
+
+                 </div> <!-- close col  -->
+               </div> <!-- close row  -->
+             </div> <!-- close container  -->
+           </div> <!-- close overlay  -->
+        </div>  <!-- close explanation6 section  -->
+
+        <!-- Modal Racism-->
+                  <div class="modal fade" id="racism" tabindex="-1" role="dialog" aria-labelledby="racismLabel" aria-hidden="true">
+                    <div class="modal-dialog float-right" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="racismLabel">The Root of Intolerance</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+
+                        <div class="modal-body">
+                          <p>
+                          </p>
+
+                          <p>Estimating the size of Europe’s Muslim population is difficult. Some European countries, like France, do not measure religion in the national census. Other countries, like Germany, attempt to measure it, but the results are largely inaccurate. Consequently, most estimates are based on country of origin.</p>
+
+                          <p>This is where the debate lies. Country of origin, or race for that matter, does not denote religion. A white European with an all-German lineage could be Muslim. A second-generation Algerian with Arab features living in France can be Catholic.  However, when both of these individuals apply for a job, who is more likely to be hired?</p>
+
+                          <p>Stéphane Charbonnier, the late editor in chief of the French satirical magazine Charlie Hebdo, argues that what has been widely referred to as Islamophobia or xenophobia is in fact racism.</p>
+
+                          <p>“The fact that racists may also be Islamophobic is essentially incidental. They are racists first, and merely use Islam to target their intended victim,” Charbonnier said.
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                 </div> <!-- close Modal Racism-->
+
+<!-- explanation7 page -->
+      <div class="image tunnel" id="explanation7">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#explanation6" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#fr_intro" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                   <div class="mb-auto p-2">
+                     <div class="text textbox">
+
+                     <p>To fully understand Europe's current migrant crisis, it’s essential to look back at previous waves of migration.</p>
+
+                     <p>France and Germany have the largest Muslim populations in the region. Let's take a closer look at the historical influx of immigrants to those countries.</p>
+
+                     <div id="container3"></div>
+
+                   </div> <!-- close text  -->
+                 </div> <!-- close mb-auto p-2  -->
+
+                 <div class="p-2">
+                   <div class="text footer">
+                     <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:Lisboa_2012_-_People_-_XVII_(7672080076).jpg" target="_blank"> ondasderuido </a>
+                     </p>
+                   </div> <!-- close footer  -->
+                 </div><!-- close p-2  -->
+               </div><!-- d-flex  -->
+
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+      </div>  <!-- close explanation7 section  -->
+
 
 <!-- begin france section -->
-<div class="image belgium" id="fr_intro">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#explanation7" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#fr_migration_waves" class="btn btn_round_outline float-right next fasteffect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="textbox subheading">
-             <h2> FRANCE</h2>
-             <p>{1850s - 1980s}</p>
-           </div> <!-- close text  -->
-         </div> <!-- close col  -->
-       </div> <!-- close row  -->
-     </div> <!-- close container  -->
-   </div> <!-- close overlay  -->
- </div>
+
+
+<!-- fr_intro page -->
+      <div class="image belgium" id="fr_intro">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#explanation7" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#fr_migration_waves" class="btn btn_round_outline float-right next fasteffect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+                 <div class="subheading">
+
+                   <h2> FRANCE</h2>
+
+                   <p>{1850s - 1980s}</p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+       </div> <!-- close fr_intro section  -->
+
+
 <!-- fr_migration_waves -->
-    <div class="image belgium" id="fr_migration_waves">
-      <div class="overlay">
-        <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-        <a href="#fr_intro" class="btn btn_round_outline float-left back fasteffect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a href="#fr_algeria" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-        <div class="container">
-          <div class="row">
-             <div class="col-sm-12 col-md-9 col-lg-5">
-               <div class="text textbox">
-                 <p>During the industrial revolution and after World War I, France sought out migrant workers to meet the demands of the labor market.
+      <div class="image belgium" id="fr_migration_waves">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#fr_intro" class="btn btn_round_outline float-left back fasteffect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#fr_algeria" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
 
-                 <p>Those who migrated to France between 1850 and 1945 originated mostly from neighboring countries, such as Italy, Switzerland and Poland.
-                 </p>
-                 <p>
-                 The majority of them were white Roman Catholics who had to make minor changes to assimilate to French life.
-                 </p>
-               </div> <!-- close text  -->
-             </div> <!-- close col  -->
-           </div> <!-- close row  -->
-         </div> <!-- close container  -->
-       </div> <!-- close overlay  -->
-     </div>
+               <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                <div class="mb-auto p-2">
+                 <div class="text textbox">
 
-    <div class="image algeria" id="fr_algeria">
-      <div class="overlay">
-        <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-        <a href="#fr_migration_waves" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a href="#fr_gloriousthirty" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-        <div class="container">
-          <div class="row">
-             <div class="col-sm-12 col-md-9 col-lg-5">
-               <div class="text textbox">
-                 <p>After World War II, France began to experience a 30-year period of economic prosperity known as the Trente Glorieuses.
-                 The war had left the country with a dwindling workforce and low birthrates, so immigration was encouraged.
-                 </p>
-                 <p>
-                 Starting in the 1950s, the source of immigration shifted from European countries to North African countries, particularly Algeria.
-                 </p>
-                 <p>According to <a href= "https://www.cia.gov/library/publications/the-world-factbook/geos/ag.html">The World Factbook</a>, 99 percent of Algerians identify as Arab Muslims. Unlike the previous waves of migration, Algerians brought over other socio-cultural characteristics that made assimilating a harder task.
-                 </p>
-                <button type="button" class="btn btn_round_outline btn_small" id="modal_btn" data-toggle="modal" data-target="#whyalgeria">Why Algeria?</button>
-               </div> <!-- close text  -->
-             </div> <!-- close col  -->
-           </div> <!-- close row  -->
-         </div> <!-- close container  -->
-       </div> <!-- close overlay  -->
-     </div>
+                   <p>During the industrial revolution and after World War I, France sought out migrant workers to meet the demands of the labor market.
 
-     <!-- Modal -->
+                   <p>Those who migrated to France between 1850 and 1945 originated mostly from neighboring countries, such as Italy, Switzerland and Poland.
+                   </p>
+
+                   <p>
+                   The majority of them were white Roman Catholics who had to make minor changes to assimilate to French life.
+                   </p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
+
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:Volontaires_belges_1914.jpg" target="_blank"> Agence Rol </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+       </div><!-- close fr_migration_waves section  -->
+
+
+<!-- fr_algeria -->
+      <div class="image algeria" id="fr_algeria">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#fr_migration_waves" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#fr_gloriousthirty" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                   <p>After World War II, France began to experience a 30-year period of economic prosperity known as the Trente Glorieuses.
+                   The war had left the country with a dwindling workforce and low birthrates, so immigration was encouraged.
+                   </p>
+
+                   <p>
+                   Starting in the 1950s, the source of immigration shifted from European countries to North African countries, particularly Algeria.
+                   </p>
+
+                   <p>According to <a href= "https://www.cia.gov/library/publications/the-world-factbook/geos/ag.html" target="_blank">The World Factbook</a>, 99 percent of Algerians identify as Arab Muslims. Unlike the previous waves of migration, Algerians brought over other socio-cultural characteristics that made assimilating a harder task.
+                   </p>
+
+                  <button type="button" class="btn btn_round_outline btn_small " id="modal_btn2" data-toggle="modal" data-target="#whyalgeria">Why Algeria?</button>
+
+                </div> <!-- close text  -->
+              </div> <!-- close mb-auto p-2  -->
+
+              <div class="p-2">
+                <div class="text footer">
+                  <p>Image by<a href= "https://commons.wikimedia.org/wiki/File:A-soldier-interviewing-men-in-Algeria-1962-352033971129.jpg" target="_blank"> Agence Dalmas </a>
+                  </p>
+                </div> <!-- close footer  -->
+              </div><!-- close p-2  -->
+            </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+       </div> <!-- close fr_algeria section  -->
+
+
+  <!-- Modal Algeria-->
             <div class="modal fade" id="whyalgeria" tabindex="-1" role="dialog" aria-labelledby="whyalgeriaLabel" aria-hidden="true">
               <div class="modal-dialog float-right" role="document">
                 <div class="modal-content">
@@ -268,525 +464,752 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
+
                   <div class="modal-body">
                     <p>Algeria became French colony in 1830. After World War II, tensions with the colony heightened, giving rise to the Algerian nationalist movement. The Algerian War for Independence broke out in 1954 and Algeria gained independence in 1962.
                     </p>
 
-                    <p>This troubling period in history, marked by political turmoil and economic uncertainty, led thousands of Algerians to migrate to France. <a href= "https://www.migrationpolicy.org/article/challenge-french-diversity">The Migration Policy Institute</a> estimates that from 1968 to 1982, the Algerian immigrant population in France nearly doubled from around 470,000 to 800,000.</p>
+                    <p>This troubling period in history, marked by political turmoil and economic uncertainty, led thousands of Algerians to migrate to France. <a href= "https://www.migrationpolicy.org/article/challenge-french-diversity" target="_blank">The Migration Policy Institute</a> estimates that from 1968 to 1982, the Algerian immigrant population in France nearly doubled from around 470,000 to 800,000.</p>
 
                   </div>
                 </div>
               </div>
-         </div> <!-- close fr_migration_waves article -->
+           </div> <!-- close Modal Algeria-->
 
-<div class="image lyon" id="fr_gloriousthirty">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#fr_algeria" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#fr_lepen" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
-             <div class="text textbox">
 
-              <p>In 1973, the oil crisis shook the world economy, ending the country's Trente Glorieuses and plunging it into a prolonged economic crisis. The country saw a quick and steady rise in unemployment and inflation.
-              </p>
+<!-- fr_gloriousthirty -->
+    <div class="image lyon" id="fr_gloriousthirty">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#fr_algeria" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#fr_lepen" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
 
-              <p>To cope with the crisis, President Giscard d'Estaing imposed unpopular auterity measures. In July 1974, the government ended labor recruitment efforts in North Africa.
-              </p>
-            </div> <!-- close text  -->
-          </div> <!-- close col  -->
-        </div> <!-- close row  -->
-      </div> <!-- close container  -->
-    </div> <!-- close overlay  -->
-</div>  <!-- close fr_economy  -->
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
 
-<div class="image jean2" id="fr_lepen">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#fr_gloriousthirty" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#ger_intro" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
-             <div class="text textbox">
+                  <p>In 1973, the oil crisis shook the world economy, ending the country's Trente Glorieuses and plunging it into a prolonged economic crisis. The country saw a quick and steady rise in unemployment and inflation.
+                  </p>
 
-              <p>Around this time, France saw the emergence of the National Front, a far-right nationalist political party.
-              </p>
-              <p>
-              Jean Marie Le Pen, the founder, capitalized on the nation’s growing discontent to fuel anti-immigrant sentiments.
-              </p>
-              <p>
-              The country has since had a rightward shift in immigration policy, creating unfavorable conditions for immigrants.
-              </p>
+                  <p>To cope with the crisis, President Giscard d'Estaing imposed unpopular austerity measures. In July 1974, the government ended labor recruitment efforts in North Africa.
+                  </p>
 
-            </div> <!-- close text  -->
-          </div> <!-- close col  -->
-        </div> <!-- close row  -->
-      </div> <!-- close container  -->
-    </div> <!-- close overlay  -->
-</div>  <!-- close fr_economy  -->
+                </div> <!-- close text  -->
+              </div> <!-- close mb-auto p-2  -->
+
+              <div class="p-2">
+                <div class="text footer">
+                  <p>Image by<a href="https://commons.wikimedia.org/wiki/File:University_of_Lyon_Law_School_with_graffiti_June_1968.jpg" target="_blank"> BeenAroundAWhile </a>
+                  </p>
+                </div> <!-- close footer  -->
+              </div><!-- close p-2  -->
+            </div><!-- d-flex  -->
+
+              </div> <!-- close col  -->
+            </div> <!-- close row  -->
+          </div> <!-- close container  -->
+        </div> <!-- close overlay  -->
+      </div>  <!-- close fr_gloriousthirty  -->
+
+
+<!-- fr_lepen -->
+    <div class="image jean2" id="fr_lepen">
+      <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#fr_gloriousthirty" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#ger_intro" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                  <p>Around this time, France saw the emergence of the National Front, a far-right nationalist political party.
+                  </p>
+
+                  <p>
+                  Jean Marie Le Pen, the founder, capitalized on the nation’s growing discontent to fuel racist, anti-immigrant sentiments.
+                  </p>
+
+                  <p>
+                  The country has since had a rightward shift in immigration policy, creating unfavorable conditions for immigrants.
+                  </p>
+
+                </div> <!-- close text  -->
+              </div> <!-- close mb-auto p-2  -->
+
+              <div class="p-2">
+                <div class="text footer">
+                  <p>Image by<a href="https://commons.wikimedia.org/wiki/File:Le_Pen_Paris_2007_05_01_n4.jpg" target="_blank"> 	Marie-Lan Nguyen </a>
+                  </p>
+                </div> <!-- close footer  -->
+              </div><!-- close p-2  -->
+            </div><!-- d-flex  -->
+
+              </div> <!-- close col  -->
+            </div> <!-- close row  -->
+          </div> <!-- close container  -->
+        </div> <!-- close overlay  -->
+      </div>  <!-- close fr_lepen  -->
+
 
 <!-- begin germany section -->
-<div class="image workers" id="ger_intro">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#fr_lepen" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#ger_migration_waves" class="btn btn_round_outline float-right next fasteffect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="textbox subheading">
-             <h2> GERMANY</h2>
-             <p>{1960s - 1990s}</p>
-           </div> <!-- close text  -->
-         </div> <!-- close col  -->
-       </div> <!-- close row  -->
-     </div> <!-- close container  -->
-   </div> <!-- close overlay  -->
- </div>
-
-<div class="image workers" id="ger_migration_waves">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#ger_intro" class="btn btn_round_outline float-left back fasteffect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#ger_guest" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="text textbox">
-
-             <p> In the late 1950s, post-war labor shortages prompted West Germany to recruit temporary foreign workers to fill labor gaps in the mining and manufacturing sectors.
-             </p>
-
-             <p>
-             The country recruited guest worker by signing bilateral recruitment agreements with Italy, Spain and Greece as well as multiple Muslim nations including Turkey, Morocco and Tunisia.
-             </p>
-
-             <p>
-             Guest workers intended to travel to West Germany, work for a few years and then return home.
-             </p>
-
-           </div> <!-- close text  -->
-         </div> <!-- close col  -->
-       </div> <!-- close row  -->
-     </div> <!-- close container  -->
-   </div> <!-- close overlay  -->
-</div> <!-- close ger_migration_waves article -->
-
-<div class="image kids" id="ger_guest">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#ger_migration_waves" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#ger_unprepared" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="text textbox">
-             <p>Much like in France, recruitment of foreign guest workers continued until the 1973 oil crisis that plunged the country into a recession.
-             </p>
-
-             <p>By that time, Turkey had surpassed Italy as the most prominent source of immigration. According to the <a href= "https://www.migrationpolicy.org/article/germany-immigration-transition">Migration Policy Institute</a>, Turkish people accounted for 23 percent of foreigners in Germany in 1973.
-             </p>
-             <p>Although they were considered guest workers, many Turks remained in Germany after the halt of foreign recruitment. Their families later joined them to permanently settle in the country.
-             </p>
-           </div> <!-- close text  -->
-         </div> <!-- close col  -->
-       </div> <!-- close row  -->
-     </div> <!-- close container  -->
-   </div> <!-- close overlay  -->
-</div> <!-- close ger_guest -->
-
-<!-- begin conditions section -->
-
-<div class="image supermarket" id="ger_unprepared">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#ger_guest" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#ger_echo" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="text textbox">
-
-             <p>Prior to the 20th century, Germany had not received such large wave of migrants. It considered itself a country of emigration not immigration.
-             </p>
-
-             <p>
-             The West German government was not prepared to handle the influx of families. Specific policies for guest workers had not been created, and intergration programs had not been set in place.
-             </p>
-
-           </div> <!-- close text  -->
-         </div> <!-- close col  -->
-       </div> <!-- close row  -->
-     </div> <!-- close container  -->
-   </div> <!-- close overlay  -->
-</div> <!-- close ger_guest -->
-<!-- begin conditions section -->
 
 
-<div class="image movie" id="ger_echo">
-  <div class="overlay">
-    <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-    <a href="#ger_unprepared" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a href="#far_right" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-9 col-lg-5">
-           <div class="text textbox">
+<!-- ger_intro -->
+      <div class="image workers" id="ger_intro">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#fr_lepen" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#ger_migration_waves" class="btn btn_round_outline float-right next fasteffect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+                 <div class="subheading">
 
-             <p>
-              As questions about the country's national identity rose, so did racist, anti-muslim sentiments.
-             </p>
+                   <h2> GERMANY</h2>
 
-             <p>
-              Almost 30 years later, the same questions reverberate throughout the nation.
-             </p>
-           </div> <!-- close text  -->
-         </div> <!-- close col  -->
-       </div> <!-- close row  -->
-     </div> <!-- close container  -->
-   </div> <!-- close overlay  -->
-  </div> <!-- close uk_migration_waves article -->
+                   <p>{1960s - 1990s}</p>
 
-  <div class="image line" id="far_right">
-    <div class="overlay">
-      <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-      <a href="#ger_echo" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      <a href="#afd" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      <div class="container">
-        <div class="row">
-           <div class="col-sm-12 col-md-9 col-lg-5">
-             <div class="text textbox">
+                 </div> <!-- close text  -->
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+       </div><!-- close ger_intro  -->
 
-               <p> Immigrants have contributed new skills and knowledge to both German and French societies. They've strenghthened the labor force and made each nation more diverse and pluralistic.
 
-               <p>Yet, political parties in the far right have gained significant popularity in both France and Germany.
-               </p>
+<!-- ger_migration_waves -->
+      <div class="image workers" id="ger_migration_waves">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#ger_intro" class="btn btn_round_outline float-left back fasteffect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#ger_guest" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
 
-             </div> <!-- close text  -->
-           </div> <!-- close col  -->
-         </div> <!-- close row  -->
-       </div> <!-- close container  -->
-     </div> <!-- close overlay  -->
-    </div> <!-- close far_right article -->
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
 
+                   <p> In the late 1950s, post-war labor shortages prompted West Germany to recruit temporary foreign workers to fill labor gaps in the mining and manufacturing sectors.
+                   </p>
+
+                   <p>
+                   The country recruited guest worker by signing bilateral recruitment agreements with Italy, Spain and Greece as well as multiple Muslim nations including Turkey, Morocco and Tunisia.
+                   </p>
+
+                   <p>
+                   Guest workers intended to travel to West Germany, work for a few years and then return home.
+                   </p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
+
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by the<a href="https://commons.wikimedia.org/wiki/File:Germany._(Workers_leaving_factory.)_-_NARA_-_541699.tif" target="_blank"> 	U.S. National Archives and Records Administration </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+      </div> <!-- close ger_migration_waves  -->
+
+
+<!-- ger_guest -->
+      <div class="image kids" id="ger_guest">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#ger_migration_waves" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#ger_unprepared" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                   <p>Much like in France, recruitment of foreign guest workers continued until the 1973 oil crisis that plunged the country into a recession.
+                   </p>
+
+                   <p>By that time, Turkey had surpassed Italy as the most prominent source of immigration. According to the <a href= "https://www.migrationpolicy.org/article/germany-immigration-transition" target="_blank">Migration Policy Institute</a>, Turkish people accounted for 23 percent of foreigners in Germany in 1973.
+                   </p>
+
+                   <p>Although they were considered guest workers, many Turks remained in Germany after the halt of foreign recruitment. Their families later joined them to permanently settle in the country.
+                   </p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
+
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by <a href="https://www.flickr.com/photos/heiner1947/4443073869/in/photostream/" target="_blank"> 	Heinrich Klaffs </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+      </div> <!-- close ger_guest -->
+
+
+<!-- ger_unprepared -->
+      <div class="image supermarket" id="ger_unprepared">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#ger_guest" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#ger_echo" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                   <p>Prior to the 20th century, Germany had not received such large wave of migrants. It considered itself a country of emigration not immigration.
+                   </p>
+
+                   <p>
+                   The West German government was not prepared to handle the influx of families. Specific policies for guest workers had not been created, and integration programs had not been set in place.
+                   </p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
+
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by <a href="https://www.flickr.com/photos/heiner1947/4443065269/in/photostream/" target="_blank"> 	Heinrich Klaffs </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+      </div> <!-- close ger_unprepared -->
+
+
+<!-- ger_echo -->
+      <div class="image movie" id="ger_echo">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#ger_unprepared" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#far_right" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                   <p>
+                    As questions about the country's national identity rose, so did racist, anti-Muslim sentiments.
+                   </p>
+
+                   <p>
+                    Almost 30 years later, the same questions reverberate throughout the nation.
+                   </p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
+
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by <a href="https://www.flickr.com/photos/heiner1947/4443868492/in/photostream/" target="_blank"> Heinrich Klaffs </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+        </div> <!-- close ger_echo -->
+
+
+<!-- begin far-right section -->
+
+
+<!-- far_right -->
+      <div class="image dual" id="far_right">
+        <div class="overlay">
+          <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+          <a href="#ger_echo" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+          <a href="#afd" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
+
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
+
+                   <p> Immigrants have been contributing new skills and knowledge to German and French societies for decades now.
+
+                   <p>
+                   They've strengthened the labor force and made each nation more diverse and pluralistic.
+                   </p>
+
+                   <p>Yet, political parties in the far right have gained significant popularity in both France and Germany.
+                   </p>
+
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
+
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by <a href="https://commons.wikimedia.org/wiki/File:Turks_in_Kiel.jpg" target="_blank"> Arne List </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+       </div> <!-- close far_right -->
+
+
+<!-- afd -->
     <div class="image afd" id="afd">
       <div class="overlay">
-        <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-        <a href="#far_right" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a href="#lepen" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+          <a href="#far_right" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+          <a href="#lepen" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
         <div class="container">
           <div class="row">
              <div class="col-sm-12 col-md-9 col-lg-5">
-               <div class="text textbox">
+
+               <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                <div class="mb-auto p-2">
+                 <div class="text textbox">
 
                  <p>Germany’s nationalist party, Alternative for Germany, became the third largest party in the federal parliament in 2017.
                  </p>
 
-               </div> <!-- close text  -->
-             </div> <!-- close col  -->
-           </div> <!-- close row  -->
-         </div> <!-- close container  -->
-       </div> <!-- close overlay  -->
-      </div> <!-- close far_right article -->
-
-    <div class="image lepen" id="lepen">
-      <div class="overlay">
-        <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
-        <a href="#afd" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a href="#" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-        <div class="container">
-          <div class="row">
-             <div class="col-sm-12 col-md-9 col-lg-5">
-               <div class="text textbox">
-
-                 <p>Marine le Pen, the daughter of Jean Marie le Pen and current leader of the National Front, came in second place during the 2017 French presidential election.
+                 <p>The AFD is the country's first far-right party in parliament since the 1960s.
                  </p>
 
                </div> <!-- close text  -->
+             </div> <!-- close mb-auto p-2  -->
+
+             <div class="p-2">
+               <div class="text footer">
+                 <p>Image by <a href="https://commons.wikimedia.org/wiki/File:D%C3%BCsseldorf,_Rosenmontag_2016,_politische_Karnevalswagen_(03).jpg" target="_blank"> Kürschner </a>
+                 </p>
+               </div> <!-- close footer  -->
+             </div><!-- close p-2  -->
+           </div><!-- d-flex  -->
+
              </div> <!-- close col  -->
            </div> <!-- close row  -->
          </div> <!-- close container  -->
        </div> <!-- close overlay  -->
-      </div> <!-- close far_right article -->
+      </div> <!-- close afd -->
 
 
+<!-- lepen -->
+      <div class="image lepen" id="lepen">
+        <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#afd" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#about" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-9 col-lg-5">
 
-<script>
-Highcharts.chart('container1', {
-    chart: {
-    		backgroundColor: null,
-        type: 'column'
-    },
-    title: {
-        text: 'Unfavorable views of Muslims on the rise in Europe',
-        style: {
-          color: '#fff',
-        }
-    },
-    xAxis: {
-        categories: [
-            'Poland',
-            'Spain',
-            'France',
-            'Germany',
-            'UK'
-        ],
-        tickColor: '#fff',
-        labels: {
-           style: {
-               color: '#fff'
-           }
-       }
-    },
-    yAxis: [{
-        min: 0,
-        labels: {
-           style: {
-               color: '#fff'
-           }
-       },
-        title: {
-            text: '% unfavorable view of Muslims',
-            style: {
-              color: '#fff',
-            }
+                 <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                  <div class="mb-auto p-2">
+                   <div class="text textbox">
 
-        }
-    }, {
-        title: {
-            text: '',
-            style: {
-              color: '#fff',
-            }
-        },
-        opposite: true
-    }],
-    legend: {
-      itemStyle: {
-        color: '#fff'
-        },
-      shadow: false,
-    },
-    tooltip: {
-        shared: true,
-        valueSuffix:'%'
-    },
-    plotOptions: {
-        column: {
-            grouping: false,
-            shadow: false,
-            borderWidth: 0,
-        },
+                   <p>Marine le Pen, the daughter of Jean Marie le Pen and current leader of the National Front, came in second place during the 2017 French presidential election.
+                   </p>
 
-    },
-    series: [{
-        name: '2015',
-        color: 'rgba(165,170,217,1)',
-        data: [56, 42, 24, 24, 19],
-        pointPadding: 0.3,
-        pointPlacement: -0.2
-    }, {
-        name: '2016',
-        color: 'rgba(126,86,134,.9)',
-        data: [66, 50, 29, 29, 28],
-        pointPadding: 0.4,
-        pointPlacement: -0.2
+                 </div> <!-- close text  -->
+               </div> <!-- close mb-auto p-2  -->
 
-    }
-  ]
-});
-</script>
+               <div class="p-2">
+                 <div class="text footer">
+                   <p>Image by <a href="https://commons.wikimedia.org/wiki/File:Meeting_1er_mai_2012_Front_National,_Paris_(45).jpg" target="_blank"> Blandine Le Cain </a>
+                   </p>
+                 </div> <!-- close footer  -->
+               </div><!-- close p-2  -->
+             </div><!-- d-flex  -->
+
+               </div> <!-- close col  -->
+             </div> <!-- close row  -->
+           </div> <!-- close container  -->
+         </div> <!-- close overlay  -->
+        </div> <!-- close lepen -->
+
+<!-- about -->
+         <div class="image fruits" id="about">
+          <div class="overlay">
+            <a href="#intro"><img src="images/home.png" alt="Home Button"/></a>
+            <a href="#lepen" class="btn btn_round_outline float-left back effect"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#intro" class="btn btn_round_outline float-right next effect"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-5 col-lg-4">
+
+                    <div class="d-flex align-items-start flex-column" style="height: 680px;">
+                     <div class="mb-auto p-2">
+                      <div class="text textbox">
+
+                      <h2>SOURCES</h2>
+
+                      <p><a href= "http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/" target="_blank">2016 Pew Research Center study</a>
+                      </p>
+
+                      <p><a href= "http://www.unhcr.org/en-us/europe-emergency.html" target="_blank">The UN Refugee Agency</a>
+                      </p>
 
 
-<script>
-Highcharts.chart('container2', {
-    chart: {
-        backgroundColor: null,
-    },
-    title: {
+                      <p><a href= "https://www.cia.gov/library/publications/the-world-factbook/geos/ag.html" target="_blank">The World Factbook</a>
+                      </p>
 
-        text: 'Estimate of Muslim Population in Europe, 1950–2010',
-        style: {
-          color: '#fff',
-        }
-    },
+                      <p><a href= "https://www.migrationpolicy.org/article/challenge-french-diversity" target="_blank">The Challenge of French Diversity</a>
+                      </p>
 
-    subtitle: {
-        text: 'Source:<a href="http://www.ijesd.org/papers/29-D438.pdf">International Journal of Environmental Science and Development</a>',
-         	 style: {
-          color: '#fff',
-        }
-    },
+                      <p><a href= "https://www.migrationpolicy.org/article/germany-immigration-transition" target="_blank">Germany: Immigration in Transition</a>
+                      </p>
 
-    xAxis: {
-           tickColor: '#fff',
-           labels: {
-           	style: {
-               color: '#fff'
-           		}
-       		}
-    },
+                      <p><a href= "http://www.pewresearch.org/fact-tank/2017/11/30/qa-the-challenges-of-estimating-the-size-of-europes-muslim-population/" target="_blank">Estimating Europe’s Muslim population</a>
+                      </p>
 
-    yAxis: {
-   				 min: 0,
-            max: 4000000,
-            tickInterval: 1000000,
-            gridLineColor: '#fff',
-        title: {
-            text: 'Population',
-            style: {
-               color: '#fff'
-           }
-        },
-        labels: {
-           style: {
-               color: '#fff'
-           }
-       }
-    },
-    legend: {
-        layout: 'vertical',
-        align: 'right',
-        verticalAlign: 'middle',
-        itemStyle: {
-          color: '#fff'
+                      <p><a href= "http://time.com/4120932/charlie-hebdo-islamophobia-racism/" target="_blank">Europe's Problem Is Racism, Not Islamophobia</a>
+                      </p>
+
+                      <p>Title image by <a href= "https://commons.wikimedia.org/wiki/File:Women_and_children_among_Syrian_refugees_striking_at_the_platform_of_Budapest_Keleti_railway_station._Refugee_crisis._Budapest,_Hungary,_Central_Europe,_4_September_2015._(3).jpg" target="_blank">Mstyslav Chernov</a>
+                      </p>
+
+                    </div> <!-- close text  -->
+                  </div> <!-- close mb-auto p-2  -->
+
+                      <div class="p-2">
+                        <div class="text footer">
+                          <p>Image by <a href="https://commons.wikimedia.org/wiki/File:March%C3%A9_dAligre_4.jpg" target="_blank"> Jesús Gorriti </a>
+                          </p>
+                        </div> <!-- close footer  -->
+                      </div><!-- close p-2  -->
+                    </div><!-- d-flex  -->
+
+
+                    </div> <!-- close col  -->
+                  </div> <!-- close row  -->
+                </div> <!-- close container  -->
+              </div> <!-- close overlay  -->
+            </div> <!-- close lepen -->
+
+
+<!-- Begin Highcharts -->
+
+
+<!-- Unfavorable views of Muslims on the rise in Europe -->
+      <script>
+      Highcharts.chart('container1', {
+          chart: {
+          		backgroundColor: null,
+              type: 'column'
           },
-    },
+          title: {
+              text: 'Unfavorable views of Muslims on the rise in Europe',
+              style: {
+                color: '#fff',
+              }
+          },
+          subtitle: {
+              text: 'Source: <a href="http://www.pewglobal.org/2016/07/11/europeans-fear-wave-of-refugees-will-mean-more-terrorism-fewer-jobs/" target="_blank" >Pew Research Center</a>',
+              style: {
+                color: '	#BEBEBE',
+              }
+          },
+          xAxis: {
+              categories: [
+                  'Poland',
+                  'Spain',
+                  'France',
+                  'Germany',
+                  'UK'
+              ],
+              tickColor: '#fff',
+              labels: {
+                 style: {
+                     color: '#fff'
+                 }
+             }
+          },
+          yAxis: [{
+              min: 0,
+              labels: {
+                 style: {
+                     color: '#fff'
+                 }
+             },
+              title: {
+                  text: '% unfavorable view of Muslims',
+                  style: {
+                    color: '#fff',
+                  }
 
-    plotOptions: {
-        series: {
-        gridLineColor: '#197F07',
-            label: {
-                connectorAllowed: false,
-                style: {
-          				 color: '#fff'
-          			}
-           	},
-            pointStart: 1950,
-            pointInterval: 10,
-
-        }
-    },
-
-    series: [{
-        name: 'France',
-        data: [230075, 913477 , 1980067 , 2481688, 3978941]
-    }, {
-        name: 'Germany',
-        color: 'rgba(165,170,217,1)',
-        data: [20513 , 21844 , 1172539 , 1722349, 2462424]
-    }, {
-        name: 'United Kingdom',
-        color: 'rgba(165,250,217,1)',
-        data: [101232, 104744 , 667958 , 1238913 , 1488175]
-
-    }],
-
-    responsive: {
-        rules: [{
-            condition: {
-                maxWidth: 500
-            },
-            chartOptions: {
-                legend: {
-                    layout: 'horizontal',
-                    align: 'center',
-                    verticalAlign: 'bottom'
-                }
-            }
-        }]
-    }
-
-});
-</script>
-
-
-
-
-
-<script>
-Highcharts.chart('container3', {
-    chart: {
-   		  backgroundColor: null,
-        type: 'bar'
-    },
-    title: {
-        text: 'Estimated size of Muslim population in 2016',
-        style: {
-          color: '#fff',
-        }
-    },
-    subtitle: {
-        text: 'Source: <a href="http://www.pewresearch.org/fact-tank/2017/11/29/5-facts-about-the-muslim-population-in-europe/">Pew Research Center</a>',
-        style: {
-          color: '#fff',
-        }
-    },
-    xAxis: {
-        categories: ['France', 'Germany', 'UK', 'Italy', 'Netherlands'],
-        labels: {
-           style: {
-             color: '#fff'
-           }
-        },
-        title: {
-            text: null
-        }
-    },
-    yAxis: {
-        min: 0,
-        gridLineColor: '#fff',
-        title: {
-            text: 'Population',
-            style: {
+              }
+          }, {
+              title: {
+                  text: '',
+                  style: {
+                    color: '#fff',
+                  }
+              },
+              opposite: true
+          }],
+          legend: {
+            itemStyle: {
               color: '#fff'
               },
-            align: 'high'
-        },
-        labels: {
-            overflow: 'justify',
-            style: {
-               color: '#fff'
-           }
-        }
-    },
-
-   legend: {
-    itemStyle: {
-          color: '#fff'
+            shadow: false,
           },
-    },
+          tooltip: {
+              shared: true,
+              valueSuffix:'%'
+          },
+          plotOptions: {
+              column: {
+                  grouping: false,
+                  shadow: false,
+                  borderWidth: 0,
+              },
 
-    tooltip: {
-        valueSuffix: ' '
-    },
-    plotOptions: {
-        bar: {
-            dataLabels: {
-                enabled: false,
-                    style: {
-               color: '#fff'
-           },
-            }
-        }
-    },
+          },
+          series: [{
+              name: '2015',
+              color: 'rgba(165,170,217,1)',
+              data: [56, 42, 24, 24, 19],
+              pointPadding: 0.3,
+              pointPlacement: -0.2
+          }, {
+              name: '2016',
+              color: 'rgba(126,86,134,.9)',
+              data: [66, 50, 29, 29, 28],
+              pointPadding: 0.4,
+              pointPlacement: -0.2
 
-    credits: {
-        enabled: false
-    },
-    series: [{
-        name: 'Year 2016',
-        color: 'rgba(253,192,78, 1)',
-        text: null,
-        data: [5720000, 4950000, 4130000, 2870000, 1210000],
+          }
+        ]
+      });
+      </script>
 
-    }]
-});
-</script>
 
-  <!-- Scripts  -->
+
+<!-- Estimate of Muslim Population in Europe, 1950–1990 -->
+      <script>
+      Highcharts.chart('container2', {
+          chart: {
+              backgroundColor: null,
+          },
+          title: {
+
+              text: 'Estimate of Muslim Population in Europe, 1950–1990',
+              style: {
+                color: '#fff',
+              }
+          },
+
+          subtitle: {
+              text: 'Source:<a href="http://www.ijesd.org/papers/29-D438.pdf" target="_blank"> International Journal of Environmental Science and Development</a>',
+               	 style: {
+                color: '	#BEBEBE',
+              }
+          },
+
+          xAxis: {
+                 tickColor: '#fff',
+                 labels: {
+                 	style: {
+                     color: '#fff'
+                 		}
+             		}
+          },
+
+          yAxis: {
+         				 min: 0,
+                  max: 4000000,
+                  tickInterval: 1000000,
+                  gridLineColor: '#fff',
+              title: {
+                  text: 'Population',
+                  style: {
+                     color: '#fff'
+                 }
+              },
+              labels: {
+                 style: {
+                     color: '#fff'
+                 }
+             }
+          },
+          legend: {
+              layout: 'vertical',
+              align: 'right',
+              verticalAlign: 'middle',
+              itemStyle: {
+                color: '#fff'
+                },
+          },
+
+          plotOptions: {
+              series: {
+              gridLineColor: '#197F07',
+                  label: {
+                      connectorAllowed: false,
+                      style: {
+                				 color: '#fff'
+                			}
+                 	},
+                  pointStart: 1950,
+                  pointInterval: 10,
+
+              }
+          },
+
+          series: [{
+              name: 'France',
+              data: [230075, 913477 , 1980067 , 2481688, 3978941]
+          }, {
+              name: 'Germany',
+              color: 'rgba(165,170,217,1)',
+              data: [20513 , 21844 , 1172539 , 1722349, 2462424]
+          }, {
+              name: 'United Kingdom',
+              color: 'rgba(165,250,217,1)',
+              data: [101232, 104744 , 667958 , 1238913 , 1488175]
+
+          }],
+
+          responsive: {
+              rules: [{
+                  condition: {
+                      maxWidth: 500
+                  },
+                  chartOptions: {
+                      legend: {
+                          layout: 'horizontal',
+                          align: 'center',
+                          verticalAlign: 'bottom'
+                      }
+                  }
+              }]
+          }
+
+      });
+      </script>
+
+
+
+<!-- Estimated size of Muslim population in 2016 -->
+      <script>
+      Highcharts.chart('container3', {
+          chart: {
+         		  backgroundColor: null,
+              type: 'bar'
+          },
+          title: {
+              text: 'Estimated size of Muslim population in 2016',
+              style: {
+                color: '#fff',
+              }
+          },
+          subtitle: {
+              text: 'Source: <a href="http://www.pewresearch.org/fact-tank/2017/11/29/5-facts-about-the-muslim-population-in-europe/" target="_blank">Pew Research Center</a>',
+              style: {
+                color: '	#BEBEBE',
+              }
+          },
+          xAxis: {
+              categories: ['France', 'Germany', 'UK', 'Italy', 'Netherlands'],
+              labels: {
+                 style: {
+                   color: '#fff'
+                 }
+              },
+              title: {
+                  text: null
+              }
+          },
+          yAxis: {
+              min: 0,
+              gridLineColor: '#fff',
+              title: {
+                  text: 'Population',
+                  style: {
+                    color: '#fff'
+                    },
+                  align: 'high'
+              },
+              labels: {
+                  overflow: 'justify',
+                  style: {
+                     color: '#fff'
+                 }
+              }
+          },
+
+         legend: {
+          itemStyle: {
+                color: '#fff'
+                },
+          },
+
+          tooltip: {
+              valueSuffix: ' '
+          },
+          plotOptions: {
+              bar: {
+                  dataLabels: {
+                      enabled: false,
+                          style: {
+                     color: '#fff'
+                 },
+                  }
+              }
+          },
+
+          credits: {
+              enabled: false
+          },
+          series: [{
+              name: 'Year 2016',
+              color: 'rgba(212, 172, 13  , 1)',
+              text: null,
+              data: [5720000, 4950000, 4130000, 2870000, 1210000],
+
+          }]
+      });
+      </script>
+
+
+<!-- Scripts Links -->
 
       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
       <script src="scripts/popper.min.js"></script>

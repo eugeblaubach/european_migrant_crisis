@@ -4,6 +4,8 @@ html{
     margin: 0;
   }
 
+
+
 .image {
   background-size: cover;
   background-position: center center;
@@ -20,9 +22,8 @@ html{
 }
 
 .text {
-  background-color: rgba(28, 28, 28, 0.7);
-  color: #fff;
-  font-family: Lato, Verdana, sans-serif;
+  color: #F5F5F5			;
+  font-family: Barlow, Verdana, sans-serif;
   z-index: 5;
 }
 
@@ -42,17 +43,31 @@ h1 {
   font-size: 400%
 }
 
-.subheading {
-  color: #fff;
+.identity {
+  font-size: 120%;
 }
 
-
 .textbox {
+  background-color: rgba(28, 28, 28, 0.7);
+  padding: 10px;
+  margin-top: 15%;
+  font-size: 2.3vh;
+  border-radius: 3px;
+  z-index: 4;
+}
+
+.subheading {
+  color: #fff;
   padding: 15px;
-  margin-top: 20%;
+  margin-top: 15%;
   font-size: 2.2vh;
   border-radius: 3px;
   z-index: 4;
+}
+
+.footer {
+  font-size: 1.7vh;
+  color: #D0D0D0	;
 }
 
 #intro {
@@ -75,39 +90,20 @@ h1 {
   background-image: url('../images/antiimmigrant.jpg');
 }
 
-.street{
-  background-image: url('../images/street.jpg');
-}
-
 .market{
   background-image: url('../images/market.jpg');
-}
-
-.market2{
-  background-image: url('../images/market2.jpg');
 }
 
 .tunnel{
   background-image: url('../images/tunnel.jpg');
 }
 
-.falafel{
-  background-image: url('../images/falafel.jpg');
-}
 .falafel2{
   background-image: url('../images/falafel2.jpg');
 }
 
-.metro{
-  background-image: url('../images/metro.jpg');
-}
-
 .fruits{
   background-image: url('../images/fruits.jpg');
-}
-
-.metro2{
-  background-image: url('../images/metro2.jpg');
 }
 
 .metro3{
@@ -126,23 +122,8 @@ h1 {
   background-image: url('../images/lyon.jpg');
 }
 
-.jean{
-  background-image: url('../images/jean.jpg');
-}
 .jean2{
   background-image: url('../images/jean2.jpg');
-}
-
-.italian {
-  background-image: url('../images/italian.jpg');
-}
-
-.italian2 {
-  background-image: url('../images/italian2.jpg');
-}
-
-.mine {
-  background-image: url('../images/mine.jpg');
 }
 
 .workers {
@@ -151,10 +132,6 @@ h1 {
 
 .kids {
   background-image: url('../images/kids.jpg');
-}
-
-.deli {
-  background-image: url('../images/deli.jpg');
 }
 
 .movie {
@@ -173,23 +150,23 @@ h1 {
   background-image: url('../images/afd.jpg');
 }
 
-.line {
-  background-image: url('../images/line.jpg');
+.dual {
+  background-image: url('../images/dual.jpg');
 }
 
 #container1 {
-	height: 340px;
+	height: 325px;
 	max-width: 800px;
   margin-top: 10px;
 }
 #container2 {
-	height: 375px;
+	height: 340px;
 	max-width: 800px;
   margin-top: 20px;
 }
 
 #container3 {
-	height: 350px;
+	height: 320px;
 	max-width: 800px;
   margin-top: 20px;
 }
@@ -236,14 +213,30 @@ h1 {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
+
+a {
+  color: #D4AC0D;
+}
+
+a:hover {
+  color: #EB984E;
+  text-decoration: none;
+}
+
+
 .modal-dialog {
-   position:sticky;
-   top:90px;
+   position: static;
+   top:35px;
    right:90px;
    left:auto;
    bottom:0;
+   font-family: Barlow, Verdana, sans-serif;
 }
 
-#modal_btn {
-  margin: 10px;
+#modal_btn1 {
+  margin-top: 10px;
+}
+
+#modal_btn2 {
+  margin-top: 30px;
 }
